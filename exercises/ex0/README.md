@@ -12,7 +12,7 @@ SAP Business Data Cloud was launched at SAP Business Unleashed on Feb 13, 2025 a
 
 ## What are the core components of SAP Business Data Cloud formation?
 
-A formation is a logical grouping of SAP systems following a business scenario. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation.
+A formation is used to connect a group of application tenants together into a virtual BDC landscape. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation.
 
 Every SAP BDC Formation must (can) have:
 - One SAP Business Data Cloud Cockpit
@@ -44,7 +44,8 @@ SAP Databricks:
 Brings advanced AI, machine learning, and data science capabilities by enabling seamless access to SAP and third-party data—without complex data replication.
 
 
-***** BW is not a direct component of BDC, need it here?
+??***** In future, also SAP BW Private Cloud Edition (BW PCE) tenants can be provisioned but for the time being,
+there’s no self-service and customers need to reach out to SAP to get a tenant provisioned. 
 
 ## Exercise Overview
 The exercises are structured by SAP Business Data Cloud end-user personas. For each persona, there are a sequencial exercises to perform. It describes responsibilities of the different personas that range from business users to system administrators
