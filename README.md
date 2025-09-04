@@ -1,4 +1,4 @@
-# DA160 - Session Title
+# DA160 - SAP Business Data Cloud from Setup to Streamline: Practical walkthrough
 
 ## Description
 
