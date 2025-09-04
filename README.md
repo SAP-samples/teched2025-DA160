@@ -1,20 +1,21 @@
-# DA160 - SAP Business Data Cloud from Setup to Streamline: Practical walkthrough
+# DA160 - SAP Business Data Cloud from Setup to Streamline: Practical Walkthrough
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called [DA160 - SAP Business Data Cloud from Setup to Streamline: Practical Walkthrough.](https://www.sap.com/events/teched/berlin/flow/sap/te25/catalog-inperson/page/catalog/session/1749043723472001JyEA)
 
 ## Overview
 
-This session introduces attendees to...
+This hands-on workshop is designed for IT administrators and analysis architects who want to gain practical expertise with SAP Business Data Cloud. Participants will explore the platform’s core components, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access. By the end, attendees will be equipped to leverage SAP Business Data Cloud to simplify complex data processes and deliver scalable, trusted data solutions across the enterprise.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+- Google Chrome Browser or Microsoft Edge based on the Chromium engine
+- Access to this GitHub repository
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Be aware that some of the exercises are dependent on each other and should be completed in the sequence provided below.
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - First Exercise Description](exercises/ex1/)
