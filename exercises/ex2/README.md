@@ -1,39 +1,49 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Administration Tools in SAP BDC Cockpit
 
-In this exercise, we will create...
+In this exercise, we will introduce administration tools in SAP BDC Cockpit.
 
-## Exercise 2.1 Sub Exercise 1 Description
+We have successfully create a SAP BDC formation from our last exercise. Now let's explore some administrative tasks in SAP BDC Cockpit.
 
-After completing these steps you will have created...
+## Exercise 2.1 Log in SAP BDC Cockpit
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+1. Go to ***link, use the username and password provided to you.
+2. Once logged in, you can access all the apps available in SAP Business Data Cloud in the side navigation. Currently, you have a role of a general user. Apps availiable to you are:
+- Home
+View the list of your most recently worked-on intelligent applications and data packages, or browse and explore the most recent intelligent applications and data packages made available by SAP
+- Intelligent Applications and Data Packages
+View full lists of intelligent applications and data packages, both yours and those offered by SAP, and browse, explore, and work on them.
+- Catalog and Marketplace
+Discover, enrich, classify, and publish high-quality, trusted data and analytic assets from across your enterprise
+- System Landscape
+Understand the tenants availiable in your BDC landscape, monitor the connectivity of your system and identify issues
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+Now you have successfully logged in SAP BDC cockpit
 
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 2.2 Create a user with BD viewer role
 
-After completing these steps you will have...
+1. Click the Security tab, go to "Users".
+<img src="./images/2-2-001.png"  width="1000"/>
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+2. Enter the User information of the user you would like to added
+<img src="./images/2-2-002.png"  width="1000"/>
 
-```
+3. Assign the role to the user
+SAP BDC cockpit offers the following default roles:
+    - BD Viewer: This role is required to view the Cockpit
+    - BD Administrator: This role is required to install data packages and intelligent applications
+    - Data Catalog User: This role is required to view the **Catalog & Marketplace** tab inside SAP BDC Cockpit which refers to the One Data Catalog concept of SAP Business Data Cloud
+    - Data Catalog Administrator: This role is required to install data products.
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+In our case, we select BD viewer to the new user. Then click Next
+<img src="./images/2-2-003.png"  width="1000"/>
+
+4. Review the user information, then click Save to create the user.
+<img src="./images/2-2-004.png"  width="1000"/>
+
+Now you have successfully create a BDC cockpit user.
+
 
 ## Summary
 
