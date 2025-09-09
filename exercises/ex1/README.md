@@ -21,7 +21,7 @@ During the guided tour, you will:
 
 Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3).
 
-### SAP Business Data Cloud in SAP for Me
+### Explaination: SAP Business Data Cloud in SAP for Me
 1. In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
 
 <img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
