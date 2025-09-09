@@ -7,7 +7,7 @@ You will need the following to perform this activity in the real-world case:
 
 Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
-Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities.
+Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
 ## Exercise 1.1 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
@@ -19,16 +19,30 @@ During the guided tour, you will:
 - Create Formation and include systems
 - Provision and include SAP Databricks
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3).
+Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explainations are provided below to help you understand the exercise.
 
-### Explaination: SAP Business Data Cloud in SAP for Me
-1. In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
+### Explainations: 
+1. In the SAP for Me account, under the **Portfolio & Products** Tab, under **My product suite** section, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
 
 <img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
 
-2. You can choose to provision them whenever needed and as many times as needed. To start provisioning, choose 'Enable' as shown in the following image.
+2. You can go through the **Applications**, **Solutions**,**Resources** and **Customer Landscape** tabs to check the details of your BDC.
 
-<img src="images/sap4me-images/enableCoreProduct.png" alt="enableCoreProduct" width="1500"/><br/>
+#### Provisioning of SAP Datasphere
+In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided.
+SAP Analytics Cloud serves as the consumption layer where the intelligent applications reside which are powered by the underlying data products.
+SAP Datasphere is the runtime where the data products can be installed and then enhanced.
+
+Let's see how we can provision these systems by looking at the example provisioning of SAP Datasphere.
+
+1. In the Resources tab, choose on the *Create*, to create a resource group for your Datasphere in your BDC.
+
+2. In the Applications tab, choose on the *Start Provisioning* for the SAP Datasphere application. A provision wizard will appear and guide you through the provision process.
+
+3. Once the provisioning request is created, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Datasphere is successful.</b> <br/>
+
+4. In the same way SAP Analytics Cloud and SAP Databricks can also be provisioned for leveraging them in the BDC landscape.
+
 
 ### Provisioning of SAP Business Data Cloud Cockpit
 
@@ -59,53 +73,7 @@ Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-8
 
 <img src="images/sap4me-images/applicationsTab.png" alt="applicationsTab" width="1500"/><br/>
 
-### Provisioning of SAP Analytics Cloud/SAP Datasphere
-In a SAP Business Data Cloud Landscape, other than the data source systems (currently S/4HANA Private Cloud Edition), other products can be provisioned to leverage the different capabilities that are provided.
-SAP Analytics Cloud serves as the consumption layer where the intelligent applications reside which are powered by the underlying data products.
-SAP Datasphere is the runtime where the data products can be installed and then enhanced.
-SAP Databricks is the workbench which powers the machine learning scenarios.
 
-All the systems can be provisoned in SAP for Me and then added to a Formation. To understand the concept of Formation, please refer to this [documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/including-sap-systems-in-formation).
-Every SAP BDC Formation must (can) have:
-1. One or more S/4HANA PCE systems (data source): we will add this in the next step.
-2. Zero or one SAP Analytics Cloud.
-3. Zero or one SAP Datasphere.
-<!-- 4. Zero or more SAP Databricks. --> 
-
-We learn how to create a Formation in the next section.
-> [!NOTE]  
-> SAP BDC cockpit (as installed in the previous step) is implicitly in the Formation. SAP Datasphere and SAP Analytics Cloud can be used only in one Formation. However, the S/4HANA PCE system and SAP Databricks can be used across different Formations.
-
-Let's see how we can provision these systems by looking at the example provisioning of SAP Analytics Cloud.
-1. In the Applications tab, choose on the *Start Provisioning*, as shown in the following image.
-
-<img src="images/sap4me-images/provisioningSacStart.png" alt="provisioningSacStart" width="1500"/><br/>
-
-2. Provide an appropriate name for the application and assign it to the proper resource Group and continue to the next step.
-
-<img src="images/sap4me-images/sacProvisionName.png" alt="provisioningSacStart" width="1500"/><br/>
-
-3. A new SAP Analytics Cloud instance is provisioned by default.
-
-<img src="images/sap4me-images/newSacByDefault.png" alt="newSacByDefault" width="1500"/><br/>
-
-4. In the provisioning wizard, add the information about required information. In the provisioning wizard,  the app expects to receive the number of users as input with certain conditions, as defined in the application's configuration. The calculation of the derived capacity units is done in the wizard and reflected to the users in SAP Analytics Cloud. 
-
-<img src="images/sap4me-images/addSacDetails.png" alt="sacDetails" width="1500"/><br/>
-<img src="images/sap4me-images/addSacDetails2.png" alt="sacDetails" width="1500"/><br/>
-> [!NOTE]
-> SAP Analytics Cloud must be provisioned in the same region as the SAP Business Data Cloud Core product.
-
-5. Once the provisioning request is created, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Analytics Cloud is successful.</b> <br/>
-
-<img src="images/sap4me-images/sacProvisioned.png" alt="sacProvisioned" width="1500"/><br/>
-
-<img src="images/sap4me-images/sacProvisionedAndReady.png" alt="sacProvisionedAndReady" width="1500"/><br/>
-
-6. In the Customer Landscape, SAC is shown as provisioned. Also, the systems integration is visually represented so that it is easy to navigate the customer landscape.<br/>
-<!-- <img src="images/sap4me-images/sacVisual.png" alt="sacVisual" width="1500"/><br/>-->
-
-In the same way SAP Datasphere and SAP Databricks can also be provisioned for leveraging them in the BDC landscape.
 
 ### Outbound steps in S/4HANA PCE system, BTP and SCC
 S/4HANA Private Cloud Edition system, which acts as a data source in SAP BDC landscape, must be prepared accordingly. All the required steps that need to be performed have been documented [here](s4-config-steps.md). There is some back and forth required between this setup and the S/4 setup, so follow the instructions accordingly.
