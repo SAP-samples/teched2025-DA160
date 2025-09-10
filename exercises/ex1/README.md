@@ -9,42 +9,16 @@ Due to the technical and time limitations, we will use guided tours for activiti
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
-## Exercise 1.1 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
+## Exercise 1.1 Read-only: Provision SAP Business Data Cloud Cockpit in SAP for Me
 
-Access the guided tour and follow the steps in SAP for Me.
-During the guided tour, you will:
-
-- Provision SAP Datasphere
-- Provision SAP Analytics Cloud
-- Create Formation and include systems
-- Provision and include SAP Databricks
-
-Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explainations are provided below to help you understand the exercise.
-
-### Explainations: 
-1. In the SAP for Me account, under the **Portfolio & Products** Tab, under **My product suite** section, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
+In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
 
 <img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
 
-2. You can go through the **Applications**, **Solutions**,**Resources** and **Customer Landscape** tabs to check the details of your BDC.
+You can choose to provision them whenever needed and as many times as needed. To start provisioning, choose 'Enable' as shown in the following image.
 
-#### Provisioning of SAP Datasphere
-In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided.
-SAP Analytics Cloud serves as the consumption layer where the intelligent applications reside which are powered by the underlying data products.
-SAP Datasphere is the runtime where the data products can be installed and then enhanced.
+<img src="images/sap4me-images/enableCoreProduct.png" alt="enableCoreProduct" width="1500"/><br/>
 
-Let's see how we can provision these systems by looking at the example provisioning of SAP Datasphere.
-
-1. In the Resources tab, choose on the *Create*, to create a resource group for your Datasphere in your BDC.
-
-2. In the Applications tab, choose on the *Start Provisioning* for the SAP Datasphere application. A provision wizard will appear and guide you through the provision process.
-
-3. Once the provisioning request is created, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Datasphere is successful.</b> <br/>
-
-4. In the same way SAP Analytics Cloud and SAP Databricks can also be provisioned for leveraging them in the BDC landscape.
-
-
-### Provisioning of SAP Business Data Cloud Cockpit
 
 1. To start provisioning the SAP BDC apps, you must first enable the SAP Business Data Cloud Core product. By doing so, the apps will become enabled and available for provisioning. SAP BDC Core product pertains directly to the application SAP BDC Cockpit.
 
@@ -74,11 +48,45 @@ Let's see how we can provision these systems by looking at the example provision
 <img src="images/sap4me-images/applicationsTab.png" alt="applicationsTab" width="1500"/><br/>
 
 
+## Exercise 1.2 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
-### Outbound steps in S/4HANA PCE system, BTP and SCC
-S/4HANA Private Cloud Edition system, which acts as a data source in SAP BDC landscape, must be prepared accordingly. All the required steps that need to be performed have been documented [here](s4-config-steps.md). There is some back and forth required between this setup and the S/4 setup, so follow the instructions accordingly.
+Access the guided tour and follow the steps in SAP for Me.
+During the guided tour, you will:
 
-### Creating a Formation
+- Provision SAP Datasphere
+- Provision SAP Analytics Cloud
+- Create Formation and include systems
+- Provision and include SAP Databricks
+
+Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explainations are provided below to help you understand the exercise.
+
+### Explainations: 
+#### SAP for Me
+
+In the SAP for Me account, under the **Portfolio & Products** Tab, under **My product suite** section, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
+
+<img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
+
+You can go through the **Applications**, **Solutions**,**Resources** and **Customer Landscape** tabs to check the details of your BDC.
+
+#### Create Resource Group
+In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided. To start provision these systems, we need to first create a resource group to group them together.
+
+In the Resources tab, choose on the *Create*, to create a resource group in your BDC.
+
+#### Provisioning of SAP Datasphere and SAP Analytics Cloud
+
+SAP Datasphere is the runtime where the data products can be installed and then enhanced.
+
+Let's looking at the example provisioning of SAP Datasphere.
+
+1. In the Applications tab, choose on the *Start Provisioning* for the SAP Datasphere application. A provision wizard will appear and guide you through the provision process.
+
+2. Once the provisioning request is created, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Datasphere is successful.</b> <br/>
+
+3. In the same way SAP Analytics Cloud can also be provisioned for leveraging them in the BDC landscape.
+
+#### Creating a Formation
 Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your integration or enhancement scenario. Let us now look into the process of creating an SAP Business Data Cloud Formation.
 
 1. **Customer Landscape > Systems** tab lists all the systems that are available or linked to the SAP For Me account. You can add specific systems to the Formation. To create a Formation, navigate to the **Customer Landscape > Formations** tab and select **Create Formation**.
@@ -114,19 +122,17 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
 
 <img src="images/sap4me-images/includeS4pceToFormation.png" alt="includeS4pceToFormation" width="1500"/><br/>
 
-9. You are asked to input different values. Let's take a deeper look at each of the parameters required and where you can find it:
-    - S/4HANA PCE Client CSR: Certificate Signing request from the S/4HANA PCE Client that was generated in this [step](s4-config-steps.md#2-generation-of-a-signed-client-certificate-csr-and-pse)
-    - Instance Number: Instance Number that was recorded in this [step](s4-config-steps.md#determine-the-instance-number-for-s4-pce-system)
-    - Cloud Connector LocationId: ID of the cloud connector is a optional input which needs to be provided only if there are multiple cloud connector accounts.
-    - S/4HANA PCE Username and User Password: S/4HANA PCE Technical user credentials created in this [step](s4-config-steps.md#3-generation-of-the-s4-technical-user-credentials)
-
-<img src="images/sap4me-images/s4PceDetails.png" alt="s4PceDetails" width="1500"/><br/>
-
-10. SAP Analytics Cloud can be added to the Formation in a similar fashion as we did with SAP Datasphere.
+9. SAP Analytics Cloud can be added to the Formation in a similar fashion as we did with SAP Datasphere.
 
 11. Review and finish the setup. The Formation is now in **Synchronizing** state. Once the Formation is in **Ready** state, SAP Business Data Cloud tenant is ready for use.
 <img src="images/sap4me-images/formationSynchronizing.png" alt="formationSynchronizing" width="1500"/><br/>
 
+#### Provisioning of SAP Databricks and include it into formation
+After a formation is created, we can start provision SAP Databricks. 
+In the Applications tab, choose on the *Start Provisioning* for the SAP Databricks application. A provision wizard will appear and guide you through the provision process.
+You will need to jump to Databricks homepage to activate the Databricks service.
+
+After the provision of SAP Databricks, we need to switch to **Customer Landscape** to include the newly created SAP Databricks to our formation.
 
 ## Summary
 
