@@ -7,21 +7,22 @@ A Data package contains sets of related data products for use in modelling proje
 
 The activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog. The Data Products of this package are visible in the Catalog after this activation. They can be either shared with Databricks for AI/ML use cases or installed in SAP Datasphere which is required for modeling in SAP Datasphere.
 
-## Exercise 4.1 Activate Data Pacakge
+## Exercise 4.1 Guided Tour: Activate Data Pacakge
 
-1. Log into the SAP Business Data Cloud Cockpit.
+Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+
+Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
+
+Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9). Explainations are provided below to help you understand the exercise.
+
+### Explainations
+
+1. Log into the SAP Business Data Cloud Cockpit, open the tab **Insight Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation.
 <img src="./images/BDCCockpit_login.png"  width="1000"/>
 
-2. In the cockpit, open the tab **Insight Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation. <br/>
-<img src="./images/insight_apps_data_packages.png"  width="1000"/>
+2. Select **SAP Accounting and Financial Close Data Products** Data package. This data package includes 23 data products.
 
-3. Search for the Data Package that you want to activate. In this exercise, we will activate the **SAP S/4HANA Financial Operations Data Products**. This data package is available for activation and includes two data products. 
-<img src="./images/DataPackage_screen.png"  width="1000"/>
-
-#### Overview
-The Overview section provides the following information about the package:
-<img src="./images/BDCDatapackage.png"  width="1000"/>
-
+3. The overview page provides the following information:
 
 - Activate: Activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog (covered in this exercise). Deactivation can also be performed here which is currently represented in this example. 
 
@@ -42,14 +43,6 @@ The Overview section provides the following information about the package:
 > [!IMPORTANT]
 When activating a data package, make sure the source system is correctly identified and accessible. Check that the source system's version meets or exceeds the minimum required by each data product in the package. Data products will only activate if their minimum version requirements are met. For example, if one product requires version 2021 and another requires 2025, and your S4 system is on version 2024, only the product requiring version 2021 will activate. Additionally, the data package itself may have a minimum version requirement; if the source system doesn't meet this, no data products will install. The installation of data products can be partial or full based on the source system's version compatibility.
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
-
-Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities.
-
-Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9).
-
-### Explainations
-
 4. Click on ***Activate*** to start the installation process. You will be asked to select the source system. Activating the Data Package will make the Data Products available in the Catalog. :wrench: <br/>
 <img src="./images/Datapackage_sourcesystem.png"  width="1000"/>
  
@@ -59,13 +52,6 @@ Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-8
 
 6. The Data package and the Data Product comprised in it is now **Active**,if there are updates available, they will also be shown at the data package level, and you could trigger an update. 
 <img src = "./images/DataPackage_active.png" width= "1000"/>
-
-7. After installation of the data package **SAP S/4HANA Financial Operations Data Products**, you will find under the **Installed** tab in Intelligent Applications and Data Packages.
-<img src = "./images/Insightappandpackage_active.png" width= "1000"/>
-
-8. Select the tab named  ***SAP Business Data Cloud Data Products***. You see all Data Products available. In the Catalog screen, under the tab SAP Business Data Cloud Data Products tab, you can find all the data products that can be now installed in the consumption spaces in SAP Datasphere. They cannot be installed from here. This is just for exploration and sharing with DBX.
-<img src="./images/catalog_bdc.png"  width="1000"/>
-
 
 
 ## Exercise 4.2 Install Data Products
