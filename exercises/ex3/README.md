@@ -92,6 +92,7 @@ Now you have succesfully installed the **Working Capital Insights** intelligent 
 After installation is complete, there are a few more steps need to be communicated to the relevant SAP Datasphere and Analytics Cloud administrators, to ensure that the intelligent application is ready to provide data to users. Due to the time limitation we will not dive deeper into the details of this part, please read the followings if you're interested.
 
 1.  SAP Datasphere: Assign newly created scoped roles to users.
+
 In the **Security> Roles** tab, two new scoped roles have been created on installation of the Intelligent Application. The scoped roles have the newly created spaces `SAP_S4H`, `SAP_WCI` and `SAP_S4H_ING` as the scopes. The two newly generated scoped roles are `BDC_Scope_Space_Admin` and `BDC_Scope_Consumer`.
 ![IA_Role2](images/IA_ScopedRole2.png)<br/>
 ![IA_Role2](images/IA_ScopedRole4.png)<br/>
@@ -103,6 +104,7 @@ In **Space Management**, navigate to each of these spaces and assign users to th
 ![IA_AddScopesToUsers](images/IA_AddScopesToUsers.png)<br/>
 
 2. SAP Datasphere: Fill the permission table to maintain data access control.
+
 To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, please refer to the format [here](other/WciAuthorizationList_set.csv) <br/>
 ![IA_EditDAC](images/IA_Dac1.png)<br/>
 ![IA_EditDACUsers](images/IA_Dac2.png)<br/>
@@ -140,6 +142,7 @@ The transformation flow runs can be monitored from the **Data Integration Monito
 ![IA_MonitorTf](images/IA_MonitorTf.png)<br/>
 
 4. SAP Analytics Cloud: Grant access to content in SAC
+
 Next, we have to manage the access in SAP Analytics Cloud. Open SAP Analytics Cloud using the Product Switch button. In SAC, in the **Security>Users** tab, add all the relevant users who will need access to content in SAC and so that the content can be shared with them.
     
 > [!NOTE]
