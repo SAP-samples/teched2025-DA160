@@ -5,11 +5,10 @@ You will need the following to perform this activity in the real-world case:
 - An SAP for Me account
 - Successful purchase of the SAP Business Data Cloud product and the corresponding entitlements
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
-
-Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
 ## Exercise 1.1 Read-only: Provision SAP Business Data Cloud Cockpit in SAP for Me
+
+Due to the technical and time limitations, activities in this exercise will be read-only. 
 
 In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
 
@@ -46,7 +45,12 @@ You have successfully provisioned the BDC Cockpit.
 
 ## Exercise 1.2 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
+Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+
+Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
+
 Access the guided tour and follow the steps in SAP for Me.
+
 During the guided tour, you will:
 
 - Provision SAP Datasphere
