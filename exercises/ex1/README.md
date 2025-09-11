@@ -42,11 +42,7 @@ You can choose to provision them whenever needed and as many times as needed. To
 6. In the **Resources** tab that opens, the application SAP BDC Cockpit displays. You can view the solution and the tenant resources that were just created for the cockpit application, including the quota and the allocated status. The status shows as **Processing** and then changes to **Ready**.
 <img src="images/sap4me-images/viewResourcesCoreProduct.png" alt="viewResourcesCoreProduct" width="1500"/><br/>
 
-
-7. In the **Customer Landscape** tab, you can see the provisioned tenant as an available system. Note the message that SAP Business Data Cloud Cockpit has been successfully enabled. You can launch it from **Access information** directly and log onto it. Now, you can continue with the Applications tab to continue further provisioning of other applications.
-
-<img src="images/sap4me-images/applicationsTab.png" alt="applicationsTab" width="1500"/><br/>
-
+You have successfully provisioned the BDC Cockpit.
 
 ## Exercise 1.2 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
@@ -91,10 +87,7 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
 
 1. **Customer Landscape > Systems** tab lists all the systems that are available or linked to the SAP For Me account. You can add specific systems to the Formation. To create a Formation, navigate to the **Customer Landscape > Formations** tab and select **Create Formation**.
 
-<img src="images/sap4me-images/formationCreateStart.png" alt="formationCreateStart" width="1500"/><br/>
-
 2. Assign a meaningful name to the Formation and select the Formation type as **Integration with SAP Business Data Cloud**. Choose Next.
-<img src="images/sap4me-images/formationName.png" alt="formationName" width="1500"/><br/>
 
 3. A specific order needs to be followed while creating the Formation. The sequence is as follows:
     - Add the newly activated SAP Business Data Cloud into the Formation first and create the Formation.
@@ -103,28 +96,7 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
         2. S/4HANA PCE system
         3. SAP Analytics Cloud
 
-4. Add SAP BDC Core Tenant to the SAP BDC Formation first. Choose **Next**. After reviewing, choose **Create**. <br/>
-<img src="images/sap4me-images/coreTenantInFormation.png" alt="coreTenantInFormation" width="1500"/><br/>
-<img src="images/sap4me-images/bdcFormation2.png" alt="bdcFormation" width="1500"/><br/>
-
-5. The initial Formation has been created. The other systems can be added to this SAP BDC Formation. <br/>
-<img src="images/sap4me-images/initialFormationCreated.png" alt="initialFormationCreated" width="1500"/><br/>
-
-6. Add SAP Datasphere to this existing Formation by choosing **Include Systems**. Choose **Next** and then **Include**.
-<img src="images/sap4me-images/addDspToFormation.png" alt="addDspToFormation" width="1500"/><br/>
-<img src="images/sap4me-images/addDspToFormation2.png" alt="addDspToFormation" width="1500"/><br/>
-
-7. SAP Datasphere is now added to the Formation.
-<img src="images/sap4me-images/dspAddedToFormation.png" alt="dspAddedToFormation" width="1500"/><br/>
-
-8. Next, add the S/4HANA PCE system into the Formation by choosing **Include Systems**. Choose **Next Step**.<br/>
-<img src="images/sap4me-images/s4PceFormationStart.png" alt="s4PceFormationStart" width="1500"/><br/>
-
-<img src="images/sap4me-images/includeS4pceToFormation.png" alt="includeS4pceToFormation" width="1500"/><br/>
-
-9. SAP Analytics Cloud can be added to the Formation in a similar fashion as we did with SAP Datasphere.
-
-11. Review and finish the setup. The Formation is now in **Synchronizing** state. Once the Formation is in **Ready** state, SAP Business Data Cloud tenant is ready for use.
+4. Review and finish the setup. The Formation is now in **Synchronizing** state. Once the Formation is in **Ready** state, SAP Business Data Cloud tenant is ready for use.
 <img src="images/sap4me-images/formationSynchronizing.png" alt="formationSynchronizing" width="1500"/><br/>
 
 #### Provisioning of SAP Databricks and include it into formation
