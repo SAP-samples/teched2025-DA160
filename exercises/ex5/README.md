@@ -12,12 +12,15 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 ![locatedatabricks](images/0501-locatedatabricks.png) 
 
 2. Provide Email and select Continue. The email is the username@sapexperienceacademy.com. 
+
 ![logindatabricks](images/0502-dblogin.png) 
 
 3. Select Continue with SSO.
+
 ![logindatabricks](images/0503-dbsso.png) 
 
 4. Select the default workspace to continue.
+
 ![wpdatabricks](images/0504-dbworkspace.png) 
 
 5. You have enter the welcome page of SAP Databricks.
