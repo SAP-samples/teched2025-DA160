@@ -24,8 +24,8 @@ Following illustration gives an impression of the look and feel of this intellig
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
 ![IA_AvailablePackages1](images/IA_AvailablePackages1.png) 
 
-3. This module shows the **Working Capital Insights** Intelligent Application which is available for installation. You can also search for the same in the search bar above.
-![IA_AvaiablePackagesWCI](images/IA_AvaiablePackagesWCI.png)
+3. This module shows the **Working Capital Insights** Intelligent Application has been installed. Go to the Installed tab and click the **Working Capital Insights** Intelligent Application.
+![IA_AvaiablePackagesWCI](images/IA_installed_WCI.png)
 
 
 This intelligent application is powered by the data from S/4 PCE data products, SAP Datasphere models and SAP Analytics Cloud stories. All of this is comprised in the **Details** section of the intelligent application.
