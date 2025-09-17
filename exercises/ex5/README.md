@@ -1,8 +1,8 @@
-# Exercise 5 - Enhance the Data Product in Databricks and Install enhanced Data Product back to Datasphere
+# Exercise 5 - Enhance the Data Product in Databricks and Install enhanced Data Product in Datasphere
 
-In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can start working on this data product. 
+In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can further work on this data product in SAO Databricks.
 
-In this exercise, we will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product to Datasphere so that data analyst can start modeling in Datasphere. 
+In this exercise, we will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product in datasphere so that data analyst can start following work, for example, modeling, in Datasphere. 
 
 ## Exercise 5.1 Hands-on: Enhance the Data Product in Databricks
 
@@ -11,7 +11,7 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of Databricks.
 ![locatedatabricks](images/0501-locatedatabricks.png) 
 
-2. Provide Email and select Continue. The email is the username@sapexperienceacademy.com. 
+2. Provide Email and select Continue. The email is the yourusername@sapexperienceacademy.com. 
 
 ![logindatabricks](images/0502-dblogin.png) 
 
@@ -40,46 +40,75 @@ Now let's locate the **CompanyCode** data product which has been shared to you i
 
 ![ccdatabricks](images/0505-dbcompanycode.png) 
 
-7. Now the data scientist can start working on this data. Due to the time limitation, we won't include the reprocessing exercise in our session. Instead, we will show you the reprocessed data so that we can continue. Let's expand the catalog again, go to **My organization** and follow the path illustrated below:
+7. Now the data scientist can start working on this data. Due to the time limitation, we won't include the reprocessing exercise in our session. Instead, we already saved a copy of the enhanced data so that we can continue. Let's expand the catalog again, go to **My organization** and follow the path illustrated below to locate the **company_code_clusters** data:
 
 ![ccdatabricks](images/0506-dbenhance.png) 
 
 We enhanced this data product by applying a Clustering ML algorithm to the original dataset. The output contains the clustering coordinates and labels for each Company Code.
 
-8. 
+8. The next step is to share this data via Delta sharing. Select **Share** and choose **Share via Delta Sharing**.
 
-## Exercise 2.1 Sub Exercise 1 Description
+![ccshare](images/0507-deltashare.png) 
 
-After completing these steps you will have created...
+Select **Create a new share with the table. Provide Share name and Recipients. 
+- share name: company_code_clustering_share_<username>
+- Recipients: sap-business-data-cloud
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+![ccshare](images/0508-deltashare2.png) 
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+9. This data product should be successfully shared to BDC. To confirm all the data products you have shared, select the Gear icon on the catalog and then select Delta Sharing.
+![ccshare](images/0509-confirmshare.png) 
+
+Switch to **Shared by me** and sort by **created at**, or filter for your username (no space at the end) and select the delta share just created. If you select the delta share you just created, details of this share will be displayed.
+
+![ccshare](images/0510-confirmshare2.png) 
+
+Congratulations! You have successfully shared the data product created in Databricks to BDC. In order to leverage this data in datasphere, the next step will be install the data product in datasphere.
+
+## Exercise 5.2 Hands-on: Install the Enhanced Data Product in Datasphere
+
+In the previous exercise, we shared your own dataset **company_code_clusters** from databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it availiable.
+
+>[!Note]
+>When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In our case, we want to customized the delivered content. We need to transform the SAP-managed content into editable ocntent using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
+
+Now, let's try install the enhanced data product in your Datasphere.
+
+1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Datasphere, click the URL of Datasphere.
+
+![locatedsp](images/0521-locatedsp.png) 
+
+2. Select Catalog & Marketplace from the side navigation area, then Search.
+
+![locatedsp](images/0522-dsp1.png) 
+
+3. Datasphere has provided many useful filters for you to search for your content. Let's select the necessary filters:
+- Data Products
+- system instance name = databricks-ee9691c9
+
+Click the **display as list** in the upper right corner allow a better view for data products with long name. You can also type in the first few letters of your username to further limit the output. Please note there might be many data products with similiar names, carefully select the one match your whole username.
+
+![locatedsp](images/0522-dsp2.png) 
+
+4. In ex4, we have get familiar with the interface of data product. Now let's go directly to the installation part. Scroll down to the **Details** panel, click **Actions**, then click **install**.
+
+![locatedsp](images/0522-dsp3.png) 
+
+5. Now you will go through the install wizard. We have created and shared to you a Datapshere space with your username beforehand, click select it as the target space in the first step:
+
+![locatedsp](images/0522-dsp4.png) 
+
+6. Change Data Access method to Remote Tables, and select the company_code_cluster data product, then select Start Import and Deploy.
+
+![locatedsp](images/0522-dsp5.png) 
+
+7. Now this data product has been installed successfully. The new data product is now availiable in your space. You can go to **Data Builder**, select the space with your user name, the new data product should be the first file in the all files tab.
+
+![locatedsp](images/0522-dsp6.png) 
 
 
+Congratulations! You can now ask your data analyst to start working on this data product.
 
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
