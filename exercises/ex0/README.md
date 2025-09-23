@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started (5 min)
 
 Welcome to DA160 - SAP Business Data Cloud from Setup to Streamline: Practical Walkthrough.
 
@@ -54,4 +54,4 @@ there’s no self-service and customers need to reach out to SAP to get a tenant
 
 Now that you have a good understanding of the exercises, let's get started with the first exercise.
 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 1 - Provision BDC via SAP for Me](../ex1/README.md)
