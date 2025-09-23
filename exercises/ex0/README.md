@@ -4,7 +4,7 @@ Welcome to DA160 - SAP Business Data Cloud from Setup to Streamline: Practical W
 
 In this exercise, you will explore the BDC's core components, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access.
 
-In order to proceed effectively with the subsequent exercise, Let's first review some basic information regarding SAP Business Data Cloud. 
+In order to proceed effectively with the subsequent exercise, let's first review some basic information regarding SAP Business Data Cloud. 
 
 
 ## What is SAP Business Data Cloud?
@@ -17,7 +17,7 @@ SAP Business Data Cloud was launched at SAP Business Unleashed on Feb 13, 2025, 
 
 A formation is used to connect a group of application tenants together into a virtual BDC landscape. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation.
 
-Every SAP BDC Formation must (can) include:
+Every SAP BDC Formation can include:
 - One SAP Business Data Cloud Cockpit
 - One or more S/4HANA PCE systems
 - Zero or one SAP Datasphere
@@ -49,12 +49,9 @@ Brings advanced AI, machine learning, and data science capabilities by enabling 
 ??***** In future, also SAP BW Private Cloud Edition (BW PCE) tenants can be provisioned but for the time being,
 there’s no self-service and customers need to reach out to SAP to get a tenant provisioned. 
 
-## Exercise Overview
-The exercises are structured by SAP Business Data Cloud end-user personas. For each persona, there are a sequencial exercises to perform. It describes responsibilities of the different personas that range from business users to system administrators
-
 
 ## Summary
 
-Now that you have a good understanding of the exercises, lets get started with the first exercise.
+Now that you have a good understanding of the exercises, let's get started with the first exercise.
 
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
