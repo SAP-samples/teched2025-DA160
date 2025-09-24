@@ -11,7 +11,6 @@ Some of the activities required for the complete instantiation of an SAP BDC ten
 
 To proceed effectively with the subsequent exercise, let's first review some basic information regarding SAP Business Data Cloud. 
 
-
 ## What is SAP Business Data Cloud?
 
 SAP Business Data Cloud is a fully managed SaaS solution that unifies and governs all SAP data and seamlessly connects with third-party data—giving line-of-business leaders context to make even more impactful decisions. Built as part of SAP’s broader data and analytics strategy, BDC is designed to bring together both SAP and non-SAP data sources into a single, trusted environment. By harmonizing enterprise data and embedding governance frameworks, it ensures accuracy, consistency, and compliance, thereby reducing the risks often associated with fragmented data landscapes.
@@ -24,12 +23,12 @@ A formation is used to connect a group of application tenants together into a vi
 
 Every SAP BDC Formation can include:
 - One SAP Business Data Cloud Cockpit
-- One or more S/4HANA PCE systems
+- Zero or more SAP S/4HANA PCE systems
+- Zero or more SAP SuccessFactors HCM systems
 - Zero or one SAP Datasphere
 - Zero or one SAP Analytics Cloud
 - Zero or more SAP Databricks
 - Zero or more SAP BW PCE (via SAP Datasphere)
-
 
 ### SAP Business Data Cloud Cockpit:
 
@@ -37,7 +36,10 @@ A unified management interface for administering BDC: browse/install Intelligent
 
 ### S/4HANA Private Cloud Edition System:
 
-SAP S/4HANA plays a significant role in the SAP Business Data Cloud (BDC) ecosystem, primarily as a source of enterprise data that can be leveraged for advanced analytics and business intelligence. 
+SAP S/4HANA plays a significant role in the SAP Business Data Cloud (BDC) ecosystem, primarily as a source of enterprise data that can be leveraged for advanced analytics and business intelligence for Core ERP. 
+
+### SAP SuccessFactors:
+A people analytics solution is offered within SAP BDC which automatically transforms people, skills, and business data – from SAP SuccessFactors HCM and beyond – into readily available insights to help drive better people and business decisions.
 
 ### SAP Datasphere:
 
@@ -51,13 +53,12 @@ Delivers analytics, reporting, dashboards, and enterprise planning—all in one 
 
 Brings advanced AI, machine learning, and data science capabilities by enabling seamless access to SAP and third-party data without complex data replication.
 
-### Neetha to add about BW?
-??***** In future, also SAP BW Private Cloud Edition (BW PCE) tenants can be provisioned but for the time being,
-there’s no self-service and customers need to reach out to SAP to get a tenant provisioned. 
+### SAP BW PCE:
 
+SAP BDC offers the flexibility and capability to expose SAP BW data in a modern data fabric environment. One can lift their SAP BW NetWeaver or SAP BW/4HANA on-premise deployments as-is into the private cloud component of SAP BDC. With the newly introduced component Data Product Generator for SAP BDC, creation of BW data products based on selected BW data can be carried out.
 
 ## Summary
 
-Now that you have a good understanding of the exercises, let's get started with the first exercise.
+Now that you have a good understanding of the different components within SAP BDC, let's get started with the first exercise.
 
 Continue to - [Exercise 1 - Provision BDC via SAP for Me](../ex1/README.md)

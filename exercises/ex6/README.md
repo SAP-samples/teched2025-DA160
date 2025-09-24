@@ -16,7 +16,7 @@ In this exercise, we will continue with Working Capital Insights as basis. The e
 - Copy the SAP Analytics story which under the package and Location below
     * SAP_SAC_WCI: INSIGHT_APPS / SAP S/4HANA / Finance
 
-## Exercise 6.1 SAP Datasphere: Space Copy
+## Exercise 6.1 Read-only: SAP Datasphere Space Copy
 > [!Note]
 > This part of the exercise cannot be performed in the system. The space required to perform the exercises has already been provided to you. Your space is a condensed version of everything required for the customization exercise. This section shows how an SAP BDC Admin performs the copying of the spaces.
 
@@ -33,7 +33,7 @@ In this exercise, we will continue with Working Capital Insights as basis. The e
 3. Repeat the two steps above for the space ´SAP_WCI´ as well.
 
 
-## Exercise 6.2 SAP Analytics Cloud: Story Copy
+## Exercise 6.2 Hands-on: SAP Analytics Cloud Story Copy
 1. Use the `Product Switch` button to switch to SAP Analytics Cloud.
 <br>![product_switch](/exercises/ex6/images/04_product_switch.png)
 
