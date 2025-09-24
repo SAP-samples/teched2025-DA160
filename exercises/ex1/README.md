@@ -1,4 +1,4 @@
-# Exercise 1 - Provision BDC via SAP for Me
+# Exercise 1 - Provision BDC via SAP for Me (15 min)
 
 When you as a customer subscribes to BDC, you will use SAP for Me to provision a BDC tenant. 
 You will need the following to perform this activity in the real-world case:
@@ -58,9 +58,9 @@ During the guided tour, you will:
 - Create Formation and include systems
 - Provision and include SAP Databricks
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explainations are provided below to help you understand the exercise.
+Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explanations are provided below to help you understand the exercise.
 
-### Explainations: 
+### Explanations: 
 #### SAP for Me
 
 In the SAP for Me account, under the **Portfolio & Products** Tab, under **My product suite** section, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
@@ -72,15 +72,15 @@ You can go through the **Applications**, **Solutions**,**Resources** and **Custo
 #### Create Resource Group
 In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided. To start provision these systems, we need to first create a resource group to group them together.
 
-In the Resources tab, choose on the *Create*, to create a resource group in your BDC.
+In the Resources tab, choose the *Create*, to create a resource group in your BDC.
 
 #### Provisioning of SAP Datasphere and SAP Analytics Cloud
 
 SAP Datasphere is the runtime where the data products can be installed and then enhanced.
 
-Let's looking at the example provisioning of SAP Datasphere.
+Let's look at the example provisioning of SAP Datasphere.
 
-1. In the Applications tab, choose on the *Start Provisioning* for the SAP Datasphere application. A provision wizard will appear and guide you through the provision process.
+1. In the Applications tab, choose the *Start Provisioning* for the SAP Datasphere application. A provision wizard will appear and guide you through the provision process.
 
 2. Once the provisioning request is created, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Datasphere is successful.</b> <br/>
 
@@ -105,14 +105,14 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
 
 #### Provisioning of SAP Databricks and include it into formation
 After a formation is created, we can start provision SAP Databricks. 
-In the Applications tab, choose on the *Start Provisioning* for the SAP Databricks application. A provision wizard will appear and guide you through the provision process.
+In the Applications tab, choose the *Start Provisioning* for the SAP Databricks application. A provisioning wizard will appear and guide you through the provision process.
 You will need to jump to Databricks homepage to activate the Databricks service.
 
 After the provision of SAP Databricks, we need to switch to **Customer Landscape** to include the newly created SAP Databricks to our formation.
 
 ## Summary
 
-You've now ...
+You've now learned how to provision BDC in SAP for Me. 
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Administration Tools in SAP BDC cockpit](../ex2/README.md)
 

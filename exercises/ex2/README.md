@@ -23,11 +23,17 @@ Now you have successfully logged in SAP BDC cockpit
 
 ## Exercise 2.2 Create a user with BD viewer role
 
-1. Click the Security tab, go to "Users".
-<img src="./images/2-2-001.png"  width="1000"/>
+In this Exercise we will try to create a user with BD viewer role in BDC cockpit.
 
-2. Enter the User information of the user you would like to added
-<img src="./images/2-2-002.png"  width="1000"/>
+Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+
+Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
+
+Start the tour [here](https://tour-viewer.platform.saleo.io/81a42c9f-eb9f-4146-9c6b-591e0f21c367). Explainations are provided below to help you understand the exercise.
+
+### Explainations
+
+1. Click the Security tab, go to "Users", start adding a new user.
 
 3. Assign the role to the user
 SAP BDC cockpit offers the following default roles:
@@ -37,10 +43,9 @@ SAP BDC cockpit offers the following default roles:
     - Data Catalog Administrator: This role is required to install data products.
 
 In our case, we select BD viewer to the new user. Then click Next
-<img src="./images/2-2-003.png"  width="1000"/>
 
-4. Review the user information, then click Save to create the user.
-<img src="./images/2-2-004.png"  width="1000"/>
+
+3. Review the user information, then click Save to create the user.
 
 Now you have successfully create a BDC cockpit user.
 
