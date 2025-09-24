@@ -2,9 +2,14 @@
 
 Welcome to DA160 - SAP Business Data Cloud from Setup to Streamline: Practical Walkthrough.
 
-In this exercise, you will explore the BDC's core components, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access.
+In this exercise, you will explore the core components of SAP Business Data Cloud, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access.
 
-In order to proceed effectively with the subsequent exercise, let's first review some basic information regarding SAP Business Data Cloud. 
+Some of the activities required for the complete instantiation of an SAP BDC tenant are one-time action. Hence, this session is a combination of Product tours, reading material and Hands-on. We will use the following labels throughout the exercises to categorize them:
+- **Read-only**: Content tagged as 'Read-only' is reading material for you to better understand certain components and processes.
+- **Guided Tour**: Content tagged as 'Guided-tour' are pre-defined clickthroughs designed in an environment mimicing the product truth. These clickthroughs will guide you through the real process to get a better understanding of one-time but essential configuration activities and features.
+- **Hands-on**: Content tagged as 'Hands-on' are steps that you can perform in the tenant provided to you. Some steps in the process flow can be performed by you to gain a full working understanding.
+
+To proceed effectively with the subsequent exercise, let's first review some basic information regarding SAP Business Data Cloud. 
 
 
 ## What is SAP Business Data Cloud?
@@ -22,7 +27,8 @@ Every SAP BDC Formation can include:
 - One or more S/4HANA PCE systems
 - Zero or one SAP Datasphere
 - Zero or one SAP Analytics Cloud
-- Zero or one SAP Databricks
+- Zero or more SAP Databricks
+- Zero or more SAP BW PCE (via SAP Datasphere)
 
 
 ### SAP Business Data Cloud Cockpit:
