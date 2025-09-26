@@ -1,8 +1,8 @@
-# Exercise 3 - Install Intelligent Applications
+# Exercise 3 - Install Intelligent Applications (40 min)
 
 In this exercise, we will walk through how to install intelligent applications in SAP BDC.
 
-What is an SAP Business Data Cloud Intelligent Applications?
+What is an SAP Business Data Cloud Intelligent Application?
 
 SAP Business Data Cloud Intelligent Applications are a suite of adaptive and AI-powered applications that learn from your
 data, understand business context, and act on your behalf to transform business outcomes. These are fully managed, built
@@ -12,7 +12,7 @@ They are fully managed applications that are installed through the BDC Cockpit. 
 prebuilt SAP managed data products installed with the intelligent application packages can then be utilized to build new
 insights and develop AI faster.
 
-## Exercise 3.1 Intelligent Application Overview - Working Capital Insights
+## Exercise 3.1 Hands-on: Intelligent Application Overview - Working Capital Insights
 
 As an Admin of BDC, installing one or more intelligent applications is normally the first task you will do after completing BDC provision. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that we can start using the insights and the underlying data products to their full potential.
 
@@ -41,26 +41,26 @@ This intelligent application is powered by the data from S/4 PCE data products, 
     * SAP_S4H - This space contains all the modelling artifacts required to build the analytic models, such as views, data access controls etc.
     * SAP_S4H_ING - This space contains all the local tables and their corresponding replication flows. The data from the data products reside in these local tables.  <br/>
 
-Click the link under the **Location** column will direct you to the corresponding folder.
+Clicking the link under the **Location** column will direct you to the corresponding folder.
 
 ![contents](images/3-1-content.png) 
 
 
-Now you have go over the basic information of the Working Capital Insights intelligent apps. You can go ahead and install it.
+Now you have gone over the basic information of the Working Capital Insights intelligent apps. You can go ahead and install it.
 
 
 ## Exercise 3.2 Guided Tour: Install Intelligent Application - Working Capital Insights
 
-Now we have checked the details of Working Capital Insights intelligent apps and make sure this is the intelligent app we want to install. In this exercise, let us look at the steps of installing the intelligent application.
+Now that we have checked the details of Working Capital Insights intelligent apps and make sure this is the intelligent app we want to install. In this exercise, let us look at the steps of installing the intelligent application.
 
 Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
-Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
+A guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). Explainations are provided below to help you understand the exercise.
+Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). explanations are provided below to help you understand the exercise.
 
 
-### Explainations
+### Explanations
 
 1. Locate the **Working Capital Insights** intelligent applications, check the details and documentation.
 
@@ -84,7 +84,7 @@ Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9
 >The system creates a protected SAP Analytics Cloud workspace, and SAP Analytics Cloud stories, which will be automatically linked to the relevant analytic models in SAP Datasphere.
 
 
-Now you have succesfully installed the **Working Capital Insights** intelligent application in your BDC.
+Now you have sucessfully installed the **Working Capital Insights** intelligent application in your BDC.
 
 
 ### Additional Steps after the Installation
@@ -93,7 +93,7 @@ After installation is complete, there are a few more steps need to be communicat
 
 1.  SAP Datasphere: Assign newly created scoped roles to users.
 
-In the **Security> Roles** tab, two new scoped roles have been created on installation of the Intelligent Application. The scoped roles have the newly created spaces `SAP_S4H`, `SAP_WCI` and `SAP_S4H_ING` as the scopes. The two newly generated scoped roles are `BDC_Scope_Space_Admin` and `BDC_Scope_Consumer`.
+In the **Security> Roles** tab, two new scoped roles are created during the installation of the Intelligent Application. The scoped roles have the newly created spaces `SAP_S4H`, `SAP_WCI` and `SAP_S4H_ING` as the scopes. The two newly generated scoped roles are `BDC_Scope_Space_Admin` and `BDC_Scope_Consumer`.
 ![IA_Role2](images/IA_ScopedRole2.png)<br/>
 ![IA_Role2](images/IA_ScopedRole4.png)<br/>
 > [!NOTE]
@@ -156,6 +156,6 @@ From the Managed content folder in the file repository, grant the access rights 
 
 ## Summary
 
-You've now ...
+In Exercise 3, you gain hands-on experience with SAP Business Data Cloud Intelligent Applications by installing and configuring the Working Capital Insights app. The exercise guides you through reviewing app details, using a guided product tour, installing the app, assigning necessary roles, and uploading required data. By completing these steps, you learn how to manage SAP app installations, data integration, and role assignments to make key analytical features available to your organization.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 4 - Activate Data Package and Share Data Products ](../ex4/README.md)

@@ -1,26 +1,26 @@
 # Exercise 4 - Activate Data Package and Share Data Products
 
-In this exercise, we will learn how to activate a Data Package in SAP Business Data Cloud cockpit and then install the included Data Products in the corresponding SAP Datasphere tenant. But before we do that, let's take a closer look at what a Data Package is and its key elements.
+In this exercise, we will learn how to activate a Data Package in the SAP Business Data Cloud cockpit and then install the included Data Products in the corresponding SAP Datasphere tenant. But before we do that, let's take a closer look at what a Data Package is and what its key elements are.
 
 ### What is a Data Package? 
-A Data package contains sets of related data products for use in modelling projects and pro-code applications. All Data packages are available in the SAP Business Data Cloud Cockpit in the **Intelligent Applications and Data Packages**.
+A Data package contains sets of related data products for use in modelling projects and pro-code applications. All Data packages are available in the SAP Business Data Cloud Cockpit under the **Intelligent Applications and Data Packages**.
 
 The activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog. The Data Products of this package are visible in the Catalog after this activation. They can be either shared with Databricks for AI/ML use cases or installed in SAP Datasphere which is required for modeling in SAP Datasphere.
 
-## Exercise 4.1 Guided Tour: Activate Data Pacakge
+## Exercise 4.1 Guided Tour: Activate Data Package
 
 Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9). Explainations are provided below to help you understand the exercise.
+Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9). Explanations are provided below to help you understand the exercise.
 
-### Explainations
+### Explanations
 
 1. Log into the SAP Business Data Cloud Cockpit, open the tab **Insight Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation.
 <img src="./images/BDCCockpit_login.png"  width="1000"/>
 
-2. Select **SAP Accounting and Financial Close Data Products** Data package. This data package includes 23 data products.
+2. Select the **SAP Accounting and Financial Close Data Products** Data package. This data package includes 23 data products.
 
 3. The overview page provides the following information:
 
@@ -46,23 +46,23 @@ When activating a data package, make sure the source system is correctly identif
 5. The status changes to **Activating**. This takes some time depending on the volume of the data in the underlying source system. SAP Business Data Cloud takes care of the data extraction and processing in the background. Once, the activation completes, the Data Products that are comprised in this Data Package are available for consumption. 
 <img src="./images/Datapackageactivation_screen.png"  width="1000"/>
 
-6. The Data package and the Data Product comprised in it is now **Active**,if there are updates available, they will also be shown at the data package level, and you could trigger an update. 
+6. The Data package and the Data Product comprised in it are now **Active**,if there are updates available, they will also be shown at the data package level, and you could trigger an update. 
 <img src = "./images/DataPackage_active.png" width= "1000"/>
 
 
 ## Exercise 4.2 Hands-on and Guided Tour: Share Data Products in BDC Cockpit
 
-Now you have successfully activate the Data Package, it's now availiable for business users in the catalog. 
+Now you have successfully activated the Data Package, it's now available for business users in the catalog. 
 Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
 
 To make data products available for consumption in SAP Databricks, you can share data products from the SAP Business Data Cloud catalog to SAP Databricks.
 
 1. Log in to your BDC cockpit, using the link and username/password provided.
 
-2. Open the **Search** module in SAP Business Data Cloud Cockpit, Search for "Company Code" Data Product. Please note there might be many similiar data products contain the keywords "Company Code", select the one without any prefix or suffix。
+2. Open the **Search** module in SAP Business Data Cloud Cockpit, Search for "Company Code" Data Product. Please note there might be many similar data products containing the keywords "Company Code", select the one without any prefix or suffix。
 ![IA_Availabledataproduct](images/0402-sharedataproduct.png) 
 
-3. In the Overview page, we listed important information about this data product. Scroll down to the **Details** Panel, you will find the **Company Code** data product API. Please note this data product has already been shared to you before the training workshop. Therefore there is no action needed from you.
+3. In the Overview page, we listed important information about this data product. Scroll down to the **Details** Panel, you will find the **Company Code** data product API. Please note this data product has already been shared to you before the training workshop. No action is needed from you.
 ![IA_shareddataproduct](images/0402-shareddp.png) 
 
 Please use the guided-tour below to get yourself familiar with the process of sharing.
@@ -72,80 +72,8 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 Start the tour [here](https://tour-viewer.platform.saleo.io/d12091f4-9842-4db1-8203-91ae4f657e38). 
 
 
-> [!Note]
-> The Data Product needs to be installed from SAP Datasphere Catalog once its corresponding Data package has been activated in Business Data Cloud Cockpit. Data product can be directly shared to Databricks through SAP BDC cockpit if Databricks is part of the formation.
-
-
-1. To install the Data Product in SAP Datasphere, switch to SAP Datasphere through  **System Landscape** Tab by navigating from the relavant formation.
-<img src ="./images/SwitchDatasphere.png"  width="1000"/>.
-
-
-
-> :books: If you are participating in a SAP BDC training, the step 2 has already been completed by the trainers, as it requires admin roles. Please continue with step 3.
-
-2. Before installing the Data Product, we need to add the custom space where we want to install our required Data product to the System > Business Data Products tab and select the correct source system.  Follow these steps for your custom space(consumption space) where the data product will be installed:
-
-- Navigate to the **System** menu.
-- Select the **Business Data Products** tab.
-- Add the custom space where you intend to install the Data Product.
-- Ensure that you select the correct source system for accurate integration.
-
-<img src="./images/AddCustomspace.png"  width="1000"/>
-
-
-3.In the Catalog & Marketplace **SAP Business Data Cloud Data Products** tab search for the Data Product ***House Bank*** which was already activated in the BDC Cockpit. <br/>
-<img src="./images/DatasphereCatalog.png"  width="1000"/>
-
-
-4.Open the Data Product ***House Bank***.
-<img src="./images/HouseBank.png"  width="1000"/>
-
-5.This data product is active as displayed in the header. 
-<img src="./images/InstallDataProduct.png"  width="1000"/>
-
-6.Choose the 'Install' button to start the installation. 
-<img src="./images/InstallScreen.png"  width="1000"/>
-
-7.Select target space **Custom Space**, and click on ***Next Steps***.
-<img src="./images/Selecttarget.png"  width="1000"/>
-
-8.Review the entities (replication flow and local table) and run the import selecting ***Start Import and Deploy***. <br>
-<img src="./images/ImportEntities.png"  width="1000"/> 
-
-9.You see the message ***Importing entities. Check the notifications for the status of the import.***.
-
-10.Notifications display that the import started and also that the import completed successfully.
-
-<img src="./images/import_completed.png"  width="1000"/>
-
-
-
->[!Note]
->When you install a Data Product in SAP Datasphere, it sets up and deploys entities in an ingestion space or an SAP-managed space. Importantly, this does not create a second copy of the data. Instead, it shares the data from the ingestion space. This space is created when the first data product for the application instance is installed into DSP, either by a customer installing the data product in DSP or through the successful installation of an Intelligent Application. This approach ensures efficient resource use and keeps the data accurate and centralized.
-><img src="./images/SAPManagedSpace.png"  width="1000"/>
-
-
-11.In your assigned space, create a new **Graphical view** for Datapreview.
-
-><img src="./images/GraphicalView.png"  width="1000"/>
-
-12.Drag the table ***Master Data For House Bank*** into the view and save it as ***HouseBank_DataPreview***
-
-><img src="./images/HouseBank_DataPreview_view.png"  width="1000"/>
-
-13.Preview the data in the ***HouseBank_DataPreview*** view.
-
-><img src="./images/Datapreview_View.png"  width="1000"/>
-
->`[Note]
-As the table Master Data For ***House Bank*** is shared from the SAP-managed space. The table is automatically populated by the Replication Flow, so you don't need to manually start a run. 
-
-You can now enhance the business use case by building on top of the installed data product.
-
-
-
 ## Summary
 
 You've now ...
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 5 -  Enhance the Data Product in Databricks and Install Enhanced Data Product in Datasphere ](../ex5/README.md)
