@@ -1,4 +1,4 @@
-# Exercise 3 - Install Intelligent Applications (40 min)
+# Exercise 3 - Install Intelligent Applications (30 min)
 
 In this exercise, we will walk through how to install intelligent applications in SAP BDC.
 
@@ -29,6 +29,7 @@ Following illustration gives an impression of the look and feel of this intellig
 
 
 This intelligent application is powered by the data from S/4 PCE data products, SAP Datasphere models and SAP Analytics Cloud stories. All of this is comprised in the **Details** section of the intelligent application.
+
 1. Data Products: As shown in the following image, the intelligent application is powered by data from 35 data products, which are highly curated datasets with rich semantic purpose.
 ![dataProducts](images/dataProductsComprised.png) 
 
@@ -72,10 +73,10 @@ Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9
 > [!IMPORTANT]
 > SAP Business Data Cloud uses a singleton SAP Business Data Cloud Cockpit to govern multiple formations. One cockpit can be used to install intelligent applications and packages in different environments, for example, dev, test and prod. Hence, during installation it is asked to specify which source system supplies the data to fuel the intelligent application and which SAP Datasphere & SAP Analytics Cloud constellation is used for the installation. Source System and Install Location must be specified.
 
-2. The status of the installation changes to 'Installing' and then 'Active' when the installation has finished. 
+3. The status of the installation changes to 'Installing' and then 'Active' when the installation has finished. 
 ![IA_InstallingWCI](images/IA_InstallingWCI.png)
 
-3. After installation you will find **Working Capital Insights** under the Installed Apps and Packages.
+4. After installation you will find **Working Capital Insights** under the Installed Apps and Packages.
 ![IA_InstalledWCI](images/IA_InstalledWCI.png)
 > [!NOTE]
 > This step can take from several minutes to a few hours, because the step also entails fetching all the underlying data products data into the storage and semantic layer of BDC.

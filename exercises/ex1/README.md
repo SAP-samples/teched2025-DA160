@@ -1,4 +1,4 @@
-# Exercise 1 - Provision BDC via SAP for Me (15 min)
+# Exercise 1 - Provision BDC via SAP for Me (10 min)
 
 When you as a customer subscribes to BDC, you will use SAP for Me to provision a BDC tenant. 
 You will need the following to perform this activity in the real-world case:

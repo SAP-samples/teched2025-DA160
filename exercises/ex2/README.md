@@ -1,4 +1,4 @@
-# Exercise 2 - Administration Tools in SAP BDC Cockpit (20 min)
+# Exercise 2 - Administration Tools in SAP BDC Cockpit (10 min)
 
 In this exercise, we will introduce administration tools in SAP BDC Cockpit.
 
