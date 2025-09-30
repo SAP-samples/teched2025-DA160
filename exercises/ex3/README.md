@@ -14,7 +14,7 @@ insights and develop AI faster.
 
 ## Exercise 3.1 Hands-on: Intelligent Application Overview - Working Capital Insights
 
-As an Admin of BDC, installing one or more intelligent applications is normally the first task you will do after completing BDC provision. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that we can start using the insights and the underlying data products to their full potential.
+As an Admin of BDC, installing intelligent applications is a key task you will perform after completing BDC provisioning. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that we can start using the insights and the underlying data products to their full potential.
 
 Following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
@@ -43,6 +43,8 @@ This intelligent application is powered by the data from S/4 PCE data products, 
     * SAP_S4H_ING - This space contains all the local tables and their corresponding replication flows. The data from the data products reside in these local tables.  <br/>
 
 Clicking the link under the **Location** column will direct you to the corresponding folder.
+> [!Note]
+> The SAP Datasphere space `SAP_S4H_ING` is a part of an older version of the Intelligent Application. The newest version reuses the Ingestion space that corresponds to the LOB application. 
 
 ![contents](images/3-1-content.png) 
 
@@ -58,12 +60,14 @@ Due to the technical and time limitations, we will use guided tours for activiti
 
 A guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). explanations are provided below to help you understand the exercise.
+
+### Guided Tour
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). </b> Explanations are provided below to help you understand the exercise.
 
 
 ### Explanations
 
-1. Locate the **Working Capital Insights** intelligent applications, check the details and documentation.
+1. Locate the **Working Capital Insights** intelligent application, check the details and documentation.
 
 2. In the **Working Capital Insights** homepage, choose the 'Install' button to kick off the installation. A dialog opens up to confirm the installation details. Choose 'Install' again to confirm.
 ![IA_InstallOptions%20WCI](images/IA_InstallOptionsWCI.png)
@@ -154,9 +158,27 @@ From the Managed content folder in the file repository, grant the access rights 
 ![IA_ShareSACContent](images/IA_ShareSACContent.png)<br/>
 ![IA_ShareSACContentUsers](images/IA_ShareSACContentUsers.png)<br/>
 
+## Exercise 3.3 Guided Tour: Maintain Data Access Control centrally for S/4HANA PCE
+Due to the technical and time limitations, we will use guided tours for activities that are one-time. This particular section will go into detail about one of the steps mentioned earlier and explain how to centrally maintain the row level security for one instance of S/4HANA PCE within a formation. It will show you how the data access control is maintained in the S/4HANA reuse space. All the dimensions within `Working Capital Insights` must have the row-level security maintained.
+
+### Guided Tour:
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/b8a59936-3d02-4f1f-a4e9-13b322bfa18d).</b> Explanations are provided below to help you understand the exercise.
+
+### Explanations: 
+
+All intelligent applications delivered through SAP Business Data Cloud are secured through data access controls. By default, no user can view any data presented in the provided SAP Analytics Cloud stories. To make data available to the users authorized to see it, you must upload your authorizations to the provided permissions table.
+
+When data is delivered to SAP Datasphere through SAP Business Data Cloud, any authorizations that are applied to the data in the source system are not imported.
+
+1. In your preparation space `SAP_S4H`, identify the fact views and the permissions table.
+2. Prepare your permissions records in the operator and values format to provide row-level access to the data in your facts.
+3. Upload the appropriately formatted operator and values permissions data as a CSV file.
+4. You can also maintain permissions data manually using the data editor .
+5. Maintain the permissions table as necessary.
+
 
 ## Summary
 
-In Exercise 3, you gain hands-on experience with SAP Business Data Cloud Intelligent Applications by installing and configuring the Working Capital Insights app. The exercise guides you through reviewing app details, using a guided product tour, installing the app, assigning necessary roles, and uploading required data. By completing these steps, you learn how to manage SAP app installations, data integration, and role assignments to make key analytical features available to your organization.
+In Exercise 3, you gain hands-on experience with SAP Business Data Cloud Intelligent Applications by installing and configuring the Working Capital Insights app. The exercise guides you through reviewing app details, using a guided product tour, installing the app, assigning necessary roles, and maintaining row-level security to secure access to only authorized viewers. By completing these steps, you learn how to manage SAP app installations, data integration, and role assignments to make key analytical features available to your organization.
 
 Continue to - [Exercise 4 - Activate Data Package and Share Data Products ](../ex4/README.md)

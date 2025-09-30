@@ -1,4 +1,4 @@
-# Exercise 5 - Enhance the Data Product in Databricks and Install enhanced Data Product in Datasphere (20 min)
+# Exercise 5 - Enhance the Data Product in SAP Databricks and Install enhanced Data Product in Datasphere (20 min)
 
 In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can further work on this data product in SAP Databricks.
 

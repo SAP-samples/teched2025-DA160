@@ -1,7 +1,7 @@
 # Exercise 1 - Provision BDC via SAP for Me (10 min)
 
-When you as a customer subscribes to BDC, you will use SAP for Me to provision a BDC tenant. 
-You will need the following to perform this activity in the real-world case:
+When you subscribe to SAP BDC, you use SAP for Me to provision an SAP BDC tenant. 
+You will need the following to perform this activity:
 - An SAP for Me account
 - Successful purchase of the SAP Business Data Cloud product and the corresponding entitlements
 
@@ -10,7 +10,7 @@ You will need the following to perform this activity in the real-world case:
 
 Due to the technical and time limitations, activities in this exercise will be read-only. 
 
-In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.
+In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. The are the set of eligible applications that are part of the SAP BDC.
 
 <img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
 
@@ -58,7 +58,8 @@ During the guided tour, you will:
 - Create Formation and include systems
 - Provision and include SAP Databricks
 
-Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). Explanations are provided below to help you understand the exercise.
+### Guided Tour: 
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). </b> Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
 #### SAP for Me
