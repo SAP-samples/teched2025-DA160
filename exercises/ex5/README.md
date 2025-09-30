@@ -1,12 +1,20 @@
-# Exercise 5 - Enhance the Data Product in SAP Databricks and Install enhanced Data Product in Datasphere (20 min)
+# Exercise 5 - Enhance the Data Product in SAP Databricks and Install the custom-built Data Product in SAP Datasphere (20 min)
+
+At SAP Business Unleashed 2025, we announced SAP Databricks, a landmark partnership that brings the power of
+Databricks directly into SAP Business Data Cloud.
+
+What is SAP Databricks?
+
+SAP Databricks is an SAP-managed OEM version of the Databricks Data Intelligence Platform embedded natively within
+SAP Business Data Cloud. SAP Databricks brings industry-leading AI/ML, data science, and data engineering capabilities
+together with semantically rich, business-ready data from SAP applications. 
 
 In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can further work on this data product in SAP Databricks.
-
 In this exercise, we will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product in datasphere so that data analyst can start their work, for example, modeling, in Datasphere. 
 
 ## Exercise 5.1 Hands-on: Enhance the Data Product in Databricks
 
-Let's first do some enhancements on the **Company Code** Data product which was shared to you previously.
+Let's first do some enhancements on the **Company Code** Data product which was shared previously to SAP Databricks.
 
 1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of Databricks.
 ![locatedatabricks](images/0501-locatedatabricks.png) 
@@ -23,21 +31,9 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 
 ![wpdatabricks](images/0504-dbworkspace.png) 
 
-5. You have entered the welcome page of SAP Databricks.
+5. You have entered the welcome page of SAP Databricks. Now let's locate the **CompanyCode** data product which has been shared to you in ex4.
 
-At SAP Business Unleashed 2025, we announced SAP Databricks, a landmark partnership that brings the power of
-Databricks directly into SAP Business Data Cloud.
-
-What is SAP Databricks?
-
-SAP Databricks is an SAP-managed OEM version of the Databricks Data Intelligence Platform embedded natively within
-SAP Business Data Cloud. SAP Databricks brings industry-leading AI/ML, data science, and data engineering capabilities
-together with semantically rich, business-ready data from SAP applications. 
-
-Now let's locate the **CompanyCode** data product which has been shared to you in ex4.
-
-6. Go to **Catalog** tab and locate the **Company Code** Data product as illustrated in the figure below. This Data Product was shared from the SAP Business Data Cloud to SAP Databricks and is now available for consumption.
-
+6. Go to **Catalog** tab and locate the **Company Code** Data product as illustrated in the figure below. This Data Product was shared from the SAP Business Data Cloud to SAP Databricks and is now available for consumption. 
 ![ccdatabricks](images/0505-dbcompanycode.png) 
 
 7. Now the data scientist can start working on this data. Due to the time limitation, we won't include the reprocessing exercise in our session. Instead, we already saved a copy of the enhanced data so that we can continue. Let's expand the catalog again, go to **My organization** and follow the path illustrated below to locate the **company_code_clusters** data:
@@ -71,6 +67,9 @@ In the previous exercise, we shared your own dataset **company_code_clusters** f
 
 >[!Note]
 >When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In our case, we want to customize the delivered content. We need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
+
+>[!IMPORTANT]
+> The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **company_code_clusters**.
 
 Now, let's try to install the enhanced data product in your Datasphere.
 
@@ -112,7 +111,7 @@ Congratulations! You can now ask your data analyst to start working on this data
 
 ## Summary
 
-In Exercise 5, you learn how to share and enhance a Data Product between SAP Business Data Cloud and SAP Databricks. The exercise guides you through applying a machine learning clustering algorithm, sharing the enhanced Data Product, and installing it in SAP Datasphere. By the end, you will be able to verify the Data Product’s availability in Datasphere and enable data analysts to work with the enriched dataset for further analysis and insights.
+In Exercise 5, you learned how to share and enhance a Data Product in SAP Business Data Cloud. The exercise guided you through applying a machine learning clustering algorithm, sharing the enhanced Data Product, and installing it in SAP Datasphere. By the end, you were able to verify the Data Product’s availability in Datasphere and enable data analysts to work with the enriched dataset for further analysis and insights.
 
 
 Continue to - [Exercise 6 - Customization of Intelligent Application - Initiate ](../ex6/README.md)
