@@ -18,13 +18,12 @@ This hands-on workshop is designed for IT administrators and analysis architects
 Be aware that some of the exercises are dependent on each other and should be completed in the sequence provided below.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - Provision BDC via SAP for Me](exercises/ex1/README.md)
+- [Exercise 1 - Provision SAP BDC via SAP for Me](exercises/ex1/README.md)
 - [Exercise 2 - Administration Tools in SAP BDC Cockpit](exercises/ex2/README.md)
 - [Exercise 3 - Install Intelligent Applications](exercises/ex3/README.md)
-- [Exercise 4 - Activate Data Package and Share Data Products](exercises/ex4/README.md)
-- [Exercise 5 - Enhance the Data Product in Databricks and Install enhanced Data Product in Datasphere](exercises/ex5/README.md)
+- [Exercise 4 - Activate Data Packages and Share Data Products](exercises/ex4/README.md)
+- [Exercise 5 - Enhance the Data Product in SAP Databricks and Install the custom-built Data Product](exercises/ex5/README.md)
 - [Exercise 6 - Customization of Intelligent Application - Initiate](exercises/ex6/README.md)
-- [Exercise 7 - Customization of Intelligent Application - Data Access Control](exercises/ex7/README.md)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
