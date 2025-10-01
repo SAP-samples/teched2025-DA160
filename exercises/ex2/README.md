@@ -34,6 +34,8 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 <b>Start the tour [here](https://tour-viewer.platform.saleo.io/81a42c9f-eb9f-4146-9c6b-591e0f21c367).</b> Explanations are provided below to help you understand the exercise.
 
 ### Explanations
+> [!Note]
+> The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
 
 1. Click the Security tab, go to "Users", start adding a new user.
 

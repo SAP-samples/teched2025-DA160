@@ -8,6 +8,7 @@ Some of the activities required for the complete instantiation of an SAP BDC ten
 - **Read-only**: Content tagged as 'Read-only' is reading material for you to better understand certain components and processes.
 - **Guided Tour**: Content tagged as 'Guided-tour' are pre-defined clickthroughs designed in an environment mimicing the product truth. These clickthroughs will guide you through the real process to get a better understanding of one-time but essential configuration activities and features.
 - **Hands-on**: Content tagged as 'Hands-on' are steps that you can perform in the tenant provided to you. Some steps in the process flow can be performed by you to gain a full working understanding.
+- **Explanations**: This is optional reading if you want to gather more context for the guided-tour sections.
 
 To proceed effectively with the subsequent exercise, let's first review some basic information regarding SAP Business Data Cloud. 
 

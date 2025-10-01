@@ -66,6 +66,8 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 
 
 ### Explanations
+> [!Note]
+> The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
 
 1. Locate the **Working Capital Insights** intelligent application, check the details and documentation.
 
@@ -165,6 +167,8 @@ Due to the technical and time limitations, we will use guided tours for activiti
 <b>Start the tour [here](https://tour-viewer.platform.saleo.io/b8a59936-3d02-4f1f-a4e9-13b322bfa18d).</b> Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
+> [!Note]
+> The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
 
 All intelligent applications delivered through SAP Business Data Cloud are secured through data access controls. By default, no user can view any data presented in the provided SAP Analytics Cloud stories. To make data available to the users authorized to see it, you must upload your authorizations to the provided permissions table.
 

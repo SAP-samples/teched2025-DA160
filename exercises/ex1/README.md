@@ -59,9 +59,14 @@ During the guided tour, you will:
 - Provision and include SAP Databricks
 
 ### Guided Tour: 
+A guided tour is a clickthrough where the next click is pre-determined. The element to be explored next will be highlighted when you click anywhere on the screen.
+
 <b>Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). </b> Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
+> [!Note]
+> The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
+
 #### SAP for Me
 
 In the SAP for Me account, under the **Portfolio & Products** Tab, under **My product suite** section, the tile **SAP Business Data Cloud** tile is visible since the product has been purchased and the commercial entitlement for SAP Business Data Cloud also exists in your URM organization. By clicking it, you can explore all the technical entitlements, also known as Eligibilities. that is, the set of eligible applications that are part of the BDC product.

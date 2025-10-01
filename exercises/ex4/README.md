@@ -19,10 +19,13 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 ### Explanations
 
+> [!Note]
+> The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
+
 1. Log into the SAP Business Data Cloud Cockpit, open the tab **Insight Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation.
 <img src="./images/BDCCockpit_login.png"  width="1000"/>
 
-2. Select the **SAP Accounting and Financial Close Data Products** Data package. This data package includes 23 data products.
+2. Select the **SAP S/4HANA Financial Operations Data Products** Data package. This data package includes 23 data products.
 
 3. The overview page provides the following information:
 
