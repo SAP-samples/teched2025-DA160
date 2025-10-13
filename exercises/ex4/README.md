@@ -22,10 +22,10 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 > [!Note]
 > The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
 
-1. Log into the SAP Business Data Cloud Cockpit, open the tab **Insight Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation.
+1. Log into the SAP Business Data Cloud Cockpit, open the tab **Intelligent Applications and Data Packages**. This tab shows all the Intelligent Applications and Data Packages that are available for installation.
 <img src="./images/BDCCockpit_login.png"  width="1000"/>
 
-2. Select the **SAP S/4HANA Financial Operations Data Products** Data package. This data package includes 23 data products.
+2. Select the **SAP S/4HANA Financial Operations Data Products** Data package. This data package includes two data products.
 
 3. The overview page provides the following information:
 
@@ -48,10 +48,10 @@ When activating a data package, make sure the source system is correctly identif
 <img src="./images/Datapackage_sourcesystem.png"  width="1000"/>
  
 
-5. The status changes to **Activating**. This takes some time depending on the volume of the data in the underlying source system. SAP Business Data Cloud takes care of the data extraction and processing in the background. Once, the activation completes, the Data Products that are comprised in this Data Package are available for consumption. 
+5. The status changes to **Activating**. This takes some time depending on the volume of the data in the underlying source system. SAP Business Data Cloud takes care of the data extraction and processing in the background. Once, the activation completes, the Data Products that are comprised in this Data Package are available for consumption. <br/>
 <img src="./images/Datapackageactivation_screen.png"  width="1000"/>
 
-6. The Data package and the Data Product comprised in it are now **Active**,if there are updates available, they will also be shown at the data package level, and you could trigger an update. 
+6. The Data package and the Data Product comprised in it are now **Active**, if there are updates available, they will also be shown at the data package level, and you could trigger an update. 
 <img src = "./images/DataPackage_active.png" width= "1000"/>
 
 
