@@ -22,7 +22,6 @@ Following illustration gives an impression of the look and feel of this intellig
 1. Log in to your BDC cockpit, using the link and username/password provided.
 
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
-![IA_AvailablePackages1](images/IA_AvailablePackages1.png) 
 
 3. This module shows the **Working Capital Insights** Intelligent Application has been installed. Go to the Installed tab and click the **Working Capital Insights** Intelligent Application.
 ![IA_AvaiablePackagesWCI](images/IA_installed_WCI.png)
@@ -72,7 +71,7 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 1. Locate the **Working Capital Insights** intelligent application, check the details and documentation.
 
 2. In the **Working Capital Insights** homepage, choose the 'Install' button to kick off the installation. A dialog opens up to confirm the installation details. Choose 'Install' again to confirm.
-![IA_InstallOptions%20WCI](images/IA_InstallOptionsWCI.png)
+
 > [!NOTE]
 > This saves the related content in an SAP-Managed spaces in SAP Datasphere (DSP) and an SAP-Managed folder in SAP Analytics Cloud (SAC).
 
@@ -80,10 +79,10 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 > SAP Business Data Cloud uses a singleton SAP Business Data Cloud Cockpit to govern multiple formations. One cockpit can be used to install intelligent applications and packages in different environments, for example, dev, test and prod. Hence, during installation it is asked to specify which source system supplies the data to fuel the intelligent application and which SAP Datasphere & SAP Analytics Cloud constellation is used for the installation. Source System and Install Location must be specified.
 
 3. The status of the installation changes to 'Installing' and then 'Active' when the installation has finished. 
-![IA_InstallingWCI](images/IA_InstallingWCI.png)
+
 
 4. After installation you will find **Working Capital Insights** under the Installed Apps and Packages.
-![IA_InstalledWCI](images/IA_InstalledWCI.png)
+
 > [!NOTE]
 > This step can take from several minutes to a few hours, because the step also entails fetching all the underlying data products data into the storage and semantic layer of BDC.
 
@@ -94,7 +93,10 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 Now you have sucessfully installed the **Working Capital Insights** intelligent application in your BDC.
 
 
-### Additional Steps after the Installation
+### (Optional) Additional Steps after the Installation
+
+If you're new to the BDC, please skip this part to ensure you have enough time to finish the whole class. You can always come back to this later.
+
 
 After installation is complete, there are a few more steps need to be communicated to the relevant SAP Datasphere and Analytics Cloud administrators, to ensure that the intelligent application is ready to provide data to users. Due to the time limitation we will not dive deeper into the details of this part, please read the followings if you're interested.
 
