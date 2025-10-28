@@ -82,4 +82,4 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 In Exercise 4, you learn how to activate a Data Package in the SAP Business Data Cloud Cockpit. The exercise walks you through identifying key data products, initiating the activation workflow, and understanding how activated data products become available to business users within your organization. By completing the steps, you gain experience managing Data Packages, facilitating data access, and ensuring readiness for business analytics and integration in SAP BDC.
 
-Continue to - [Exercise 5 -  Enhance the Data Product in Databricks and Install Enhanced Data Product in Datasphere ](../ex5/README.md)
+Continue to - [Exercise 5 -  Enhance the Data Product in SAP Databricks and Install Enhanced Data Product in Datasphere ](../ex5/README.md)
