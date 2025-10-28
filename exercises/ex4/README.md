@@ -44,7 +44,7 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 > [!IMPORTANT]
 When activating a data package, make sure the source system is correctly identified and accessible. Check that the source system's version meets or exceeds the minimum required by each data product in the package. Data products will only activate if their minimum version requirements are met. For example, if one product requires version 2021 and another requires 2025, and your S4 system is on version 2024, only the product requiring version 2021 will activate. Additionally, the data package itself may have a minimum version requirement; if the source system doesn't meet this, no data products will install. The installation of data products can be partial or full based on the source system's version compatibility.
 
-4. Click on ***Activate*** to start the installation process. You will be asked to select the source system. Activating the Data Package will make the Data Products available in the Catalog. 
+4. Click on **Activate** to start the installation process. You will be asked to select the source system. Activating the Data Package will make the Data Products available in the Catalog. 
 <img src="./images/Datapackage_sourcesystem.png"  width="1000"/>
  
 
