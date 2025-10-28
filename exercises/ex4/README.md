@@ -15,7 +15,7 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 
 ### Guided Tour
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9). </b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/dd7619a5-ef6b-49b6-84d0-f6bac8477db9). </b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 ### Explanations
 
@@ -75,7 +75,7 @@ Please use the guided-tour below to get yourself familiar with the process of sh
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
 ### Guided Tour
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/d12091f4-9842-4db1-8203-91ae4f657e38). </b>
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/d12091f4-9842-4db1-8203-91ae4f657e38). </b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open.
 
 
 ## Summary
