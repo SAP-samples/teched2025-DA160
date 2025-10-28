@@ -61,7 +61,7 @@ During the guided tour, you will:
 ### Guided Tour: 
 A guided tour is a clickthrough where the next click is pre-determined. The element to be explored next will be highlighted when you click anywhere on the screen.
 
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). </b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour <a href="https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3" title="here" target="_blank"></a>. </b> Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
 > [!Note]
