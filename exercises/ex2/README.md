@@ -31,7 +31,7 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 
 ### Guided Tour
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/81a42c9f-eb9f-4146-9c6b-591e0f21c367).</b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/81a42c9f-eb9f-4146-9c6b-591e0f21c367).</b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 ### Explanations
 > [!Note]
