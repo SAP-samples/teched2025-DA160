@@ -185,6 +185,6 @@ When data is delivered to SAP Datasphere through SAP Business Data Cloud, any au
 
 ## Summary
 
-In Exercise 3, you gain hands-on experience with SAP Business Data Cloud Intelligent Applications by installing and configuring the Working Capital Insights app. The exercise guides you through reviewing app details, using a guided product tour, installing the app, assigning necessary roles, and maintaining row-level security to secure access to only authorized viewers. By completing these steps, you learn how to manage SAP app installations, data integration, and role assignments to make key analytical features available to your organization.
+In Exercise 3, you have gained hands-on experience with SAP Business Data Cloud Intelligent Applications by installing and configuring the Working Capital Insights app. The exercise guided you through reviewing app details, using a guided product tour, installing the app, assigning necessary roles, and maintaining row-level security to secure access to only authorized viewers. By completing these steps, you learned how to manage SAP app installations, data integration, and role assignments to make key analytical features available to your organization.
 
 Continue to - [Exercise 4 - Activate Data Package and Share Data Products ](../ex4/README.md)
