@@ -61,7 +61,7 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 
 
 ### Guided Tour
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). </b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). </b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 
 ### Explanations
@@ -166,7 +166,7 @@ From the Managed content folder in the file repository, grant the access rights 
 Due to the technical and time limitations, we will use guided tours for activities that are one-time. This particular section will go into detail about one of the steps mentioned earlier and explain how to centrally maintain the row level security for one instance of S/4HANA PCE within a formation. It will show you how the data access control is maintained in the S/4HANA reuse space. All the dimensions within `Working Capital Insights` must have the row-level security maintained.
 
 ### Guided Tour:
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/b8a59936-3d02-4f1f-a4e9-13b322bfa18d).</b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/b8a59936-3d02-4f1f-a4e9-13b322bfa18d).</b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
 > [!Note]
