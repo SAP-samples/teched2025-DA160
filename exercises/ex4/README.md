@@ -5,7 +5,7 @@ In this exercise, we will learn how to activate a Data Package in the SAP Busine
 ### What is a Data Package? 
 A Data package contains sets of related data products for use in modelling projects and pro-code applications. All Data packages are available in the SAP Business Data Cloud Cockpit under the **Intelligent Applications and Data Packages**.
 
-The activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog. The Data Products of this package are visible in the Catalog after this activation. They can be either shared with Databricks for AI/ML use cases or installed in SAP Datasphere which is required for modeling in SAP Datasphere.
+The activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog. The Data Products of this package are visible in the Catalog after this activation. They can be either shared with SAP Databricks for AI/ML use cases or installed in SAP Datasphere which is required for modeling in SAP Datasphere.
 
 ## Exercise 4.1 Guided Tour: Activate Data Package
 
@@ -58,7 +58,7 @@ When activating a data package, make sure the source system is correctly identif
 ## Exercise 4.2 Hands-on and Guided Tour: Share Data Products in BDC Cockpit
 
 Now you have successfully activated the Data Package, it's now available for business users in the catalog. 
-Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
+Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in SAP Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
 
 To make data products available for consumption in SAP Databricks, you can share data products from the SAP Business Data Cloud catalog to SAP Databricks.
 
