@@ -4,6 +4,7 @@ When you subscribe to SAP BDC, you use SAP for Me to provision an SAP BDC tenant
 You will need the following to perform this activity:
 - An [SAP for Me account](https://me.sap.com/)
 - Successful purchase of the SAP Business Data Cloud product and the corresponding entitlements
+- Cloud Adminsitrator role for the installation
 
 
 ## Exercise 1.1 Read-only: Provision SAP Business Data Cloud Cockpit in SAP for Me
@@ -61,7 +62,7 @@ During the guided tour, you will:
 ### Guided Tour: 
 A guided tour is a clickthrough where the next click is pre-determined. The element to be explored next will be highlighted when you click anywhere on the screen.
 
-<b>Start the tour <a href="https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3" target="_blank">here</a>. </b> Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). </b> Open the guided tour using the context menu and selecting **Open link in new tab** to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 ### Explanations: 
 > [!Note]
