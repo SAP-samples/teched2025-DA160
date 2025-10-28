@@ -14,7 +14,7 @@ In the SAP for Me account, under the **Portfolio & Products** Tab, the tile **SA
 
 <img src="images/sap4me-images/sap4me-entry.png" alt="internalHost" width="1500"/><br/>
 
-You can choose to provision them whenever needed and as many times as needed. To start provisioning, choose 'Enable' as shown in the following image.
+You can choose to provision them whenever needed and as many times as needed. To start provisioning, choose **Enable now** as shown in the following image.
 
 <img src="images/sap4me-images/enableCoreProduct.png" alt="enableCoreProduct" width="1500"/><br/>
 
