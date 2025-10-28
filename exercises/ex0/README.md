@@ -16,7 +16,7 @@ To proceed effectively with the subsequent exercise, let's first review some bas
 
 SAP Business Data Cloud is a fully managed SaaS solution that unifies and governs all SAP data and seamlessly connects with third-party data—giving line-of-business leaders context to make even more impactful decisions. Built as part of SAP’s broader data and analytics strategy, BDC is designed to bring together both SAP and non-SAP data sources into a single, trusted environment. By harmonizing enterprise data and embedding governance frameworks, it ensures accuracy, consistency, and compliance, thereby reducing the risks often associated with fragmented data landscapes.
 
-SAP Business Data Cloud was launched at SAP Business Unleashed on Feb 13, 2025, and is now generally available.
+SAP Business Data Cloud was launched at SAP Business Unleashed Event on Feb 13, 2025, and is now generally available.
 
 ## What are the core components of SAP Business Data Cloud formation?
 
