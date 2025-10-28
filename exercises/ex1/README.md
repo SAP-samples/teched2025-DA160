@@ -2,7 +2,7 @@
 
 When you subscribe to SAP BDC, you use SAP for Me to provision an SAP BDC tenant. 
 You will need the following to perform this activity:
-- An SAP for Me account
+- An [SAP for Me account](https://me.sap.com/)
 - Successful purchase of the SAP Business Data Cloud product and the corresponding entitlements
 
 
