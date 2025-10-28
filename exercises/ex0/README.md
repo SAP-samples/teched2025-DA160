@@ -1,6 +1,6 @@
 # Getting Started (5 min)
 
-Welcome to DA160 - SAP Business Data Cloud from Setup to Streamline: Practical Walkthrough.
+Welcome to DA160 - SAP Business Data Cloud (SAP BDC) from Setup to Streamline: Practical Walkthrough.
 
 In this exercise, you will explore the core components of SAP Business Data Cloud, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access.
 
