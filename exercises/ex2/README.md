@@ -37,7 +37,7 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 > [!Note]
 > The explanation section is optional reading material. Please feel free to skip this section if the guided tour was sufficient.
 
-1. Click the Security tab, go to "Users", start adding a new user.
+1. Click the Security tab, go to **Users**, start adding a new user.
 
 3. Assign the role to the user
 SAP BDC cockpit offers the following default roles:
@@ -46,12 +46,12 @@ SAP BDC cockpit offers the following default roles:
     - Data Catalog User: This role is required to view the **Catalog & Marketplace** tab inside SAP BDC Cockpit which refers to the One Data Catalog concept of SAP Business Data Cloud
     - Data Catalog Administrator: This role is required to share data products from the SAP BDC Catalog.
 
-In our case, we assign BD viewer to the new user. Then click Next.
+In our case, we assign BD viewer to the new user. Then click **Next**.
 
 
 3. Review the user information, then click Save to create the user.
 
-Now you have successfully created a BDC cockpit user.
+Now you have successfully created an SAP BDC cockpit user.
 
 
 ## Summary
