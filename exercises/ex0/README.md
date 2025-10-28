@@ -24,12 +24,12 @@ A formation is used to connect a group of application tenants together into a vi
 
 Every SAP BDC Formation can include:
 - One SAP Business Data Cloud Cockpit
-- Zero or more SAP S/4HANA PCE systems
-- Zero or more SAP SuccessFactors HCM systems
+- Zero or more SAP S/4HANA Private Cloud Edition (PCE) systems
+- Zero or more SAP SuccessFactors (Human Capital Management) systems
 - Zero or one SAP Datasphere
 - Zero or one SAP Analytics Cloud
 - Zero or more SAP Databricks
-- Zero or more SAP BW PCE (via SAP Datasphere)
+- Zero or more SAP BW Private Cloud Edition (PCE) (via SAP Datasphere)
 
 ### SAP Business Data Cloud Cockpit:
 
