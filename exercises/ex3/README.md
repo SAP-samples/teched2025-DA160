@@ -126,9 +126,9 @@ On installation, the replication flows fetch the data in the local tables. Howev
 ![IA_AuthorizeTaskChain](images/IA_AuthorizeTaskChain.png)<br/>
 
 In the space, `SAP_S4H`, there are two task chains. Run both task chains as follows:
-  - Run task chain sap.s4h.TC_InitWCIConfiguration 
-  - Configure the sap.s4h.IL_FinancialDataModelConfiguration table with G/L Account Hierarchy
-  - Run task chain sap.s4h.TC_NWCPersis
+  - Run task chain `sap.s4h.TC_InitWCIConfiguration` 
+  - Configure the `sap.s4h.IL_FinancialDataModelConfiguration` table with G/L Account Hierarchy
+  - Run task chain `sap.s4h.TC_NWCPersis`
   - You can find more information here: [Viewing Intelligent Applications](https://help.sap.com/docs/business-data-cloud/viewing-insight-apps/2fe6d4074470414585326125c2661428.html)
 
 ![IA_AuthorizeTaskChain](images/IA_TwoTaskChains.png)<br/>
