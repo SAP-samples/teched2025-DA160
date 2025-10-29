@@ -113,7 +113,7 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
 #### Provisioning of SAP Databricks and include it into formation
 After a formation is created, you can start provision SAP Databricks. 
 In the Applications tab, choose the *Start Provisioning* for the SAP Databricks application. A provisioning wizard will appear and guide you through the provision process.
-You will need to jump to Databricks homepage to activate the Databricks service.
+You will need to jump to SAP Databricks homepage to activate the SAP Databricks service.
 
 After the provision of SAP Databricks, you need to switch to **Customer Landscape** to include the newly created SAP Databricks to our formation.
 
