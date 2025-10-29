@@ -41,10 +41,10 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 3. Assign the role to the user
 SAP BDC cockpit offers the following default roles:
-    - BD Viewer: This role is required to view the Cockpit
-    - BD Administrator: This role is required to install data packages and intelligent applications
-    - Data Catalog User: This role is required to view the **Catalog & Marketplace** tab inside SAP BDC Cockpit which refers to the One Data Catalog concept of SAP Business Data Cloud
-    - Data Catalog Administrator: This role is required to share data products from the SAP BDC Catalog.
+    - **BD Viewer**: This role is required to view the Cockpit
+    - **BD Administrator**: This role is required to install data packages and intelligent applications
+    - **Data Catalog User**: This role is required to view the **Catalog & Marketplace** tab inside SAP BDC Cockpit which refers to the One Data Catalog concept of SAP Business Data Cloud
+    - **Data Catalog Administrator**: This role is required to share data products from the SAP BDC Catalog.
 
 In our case, we assign BD viewer to the new user. Then click **Next**.
 
