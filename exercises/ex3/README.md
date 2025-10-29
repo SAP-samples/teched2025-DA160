@@ -27,7 +27,7 @@ Following illustration gives an impression of the look and feel of this intellig
 ![IA_AvaiablePackagesWCI](images/IA_installed_WCI.png)
 
 
-This intelligent application is powered by the data from S/4 PCE data products, SAP Datasphere models and SAP Analytics Cloud stories. All of this is comprised in the **Details** section of the intelligent application.
+This intelligent application is powered by the data from S/4HANA PCE data products, SAP Datasphere models and SAP Analytics Cloud stories. All of this is comprised in the **Details** section of the intelligent application.
 
 1. Data Products: As shown in the following image, the intelligent application is powered by data from 35 data products, which are highly curated datasets with rich semantic purpose.
 ![dataProducts](images/dataProductsComprised.png) 
@@ -120,7 +120,7 @@ To maintain Data Access Control for the installed Intelligent Application, open 
 
 > Explanation: If the Data Access Control is not properly populated, the users will not be able to see any data (that is, in the data preview in SAP Datasphere, or in Story consumption). Let us take a deeper look into this CSV file. There are 12 rows governing 12 criterion. If five users need access, then the e-mail addresses of all five users must be repeated with each of these 12 criterion. That is, 5*12 rows where the column `User_Id` will contain the user's email address. The names of the columns or criterion cannot be changed and must be uploaded accurately.
 
-3. SAP Datasphere: Run Tasked Chains
+3. SAP Datasphere: Run Task Chains
 
 On installation, the replication flows fetch the data in the local tables. However, for the data to be populated in the views, the task chains and the corresponding transformation flows need to be run. Before running the task chains, grant yourself access to do so, as follows.
 ![IA_AuthorizeTaskChain](images/IA_AuthorizeTaskChain.png)<br/>
