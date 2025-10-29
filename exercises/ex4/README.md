@@ -1,6 +1,6 @@
 # Exercise 4 - Activate Data Package and Share Data Products (15 min)
 
-In this exercise, we will learn how to activate a Data Package in the SAP Business Data Cloud cockpit and then install the included Data Products in the corresponding SAP Datasphere tenant. But before we do that, let's take a closer look at what a Data Package is and what its key elements are.
+In this exercise, you will learn how to activate a Data Package in the SAP Business Data Cloud cockpit and then install the included Data Products in the corresponding SAP Datasphere tenant. But before you do that, let's take a closer look at what a Data Package is and what its key elements are.
 
 ### What is a Data Package? 
 A Data package contains sets of related data products for use in modelling projects and pro-code applications. All Data packages are available in the SAP Business Data Cloud Cockpit under the **Intelligent Applications and Data Packages**.
@@ -9,7 +9,7 @@ The activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it
 
 ## Exercise 4.1 Guided Tour: Activate Data Package
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+Due to the technical and time limitations, you will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
