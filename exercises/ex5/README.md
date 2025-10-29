@@ -97,7 +97,7 @@ Click the **display as list** in the upper right corner to allow a better view f
 
 ![locatedsp](images/0522-dsp4.png) 
 
-6. Change Data Access method to Remote Tables, and select the `company_code_cluster` data product, then select Start Import and Deploy.
+6. Change Data Access method to Remote Tables, and select the `company_code_clusters` data product, then select Start Import and Deploy.
 
 ![locatedsp](images/0522-dsp5.png) 
 
