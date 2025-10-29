@@ -29,17 +29,17 @@ Guided tour is a pre-built, step-by-step interactive walkthrough within a produc
 
 3. The overview page provides the following information:
 
-- Activate: Activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog (covered in this exercise). Deactivation can also be performed here which is currently represented in this example. 
+- **Activate**: Activation of a Data Package in SAP BDC Cockpit is a prerequisite to make it available for business users in the Catalog (covered in this exercise). Deactivation can also be performed here which is currently represented in this example. 
 
-- Category : categories help in organizing and filtering data efficiently, ensuring that users can easily find relevant information related to specific areas like finance or sales.
+- **Category** : categories help in organizing and filtering data efficiently, ensuring that users can easily find relevant information related to specific areas like finance or sales.
 
-- Version: Displays the version of the data package.
+- **Version**: Displays the version of the data package.
 
-- System Type: Displays the SAP S/4HANA Cloud Private Edition system that provides the business data which populate the data products.
+- **System Type**: Displays the SAP S/4HANA Cloud Private Edition system that provides the business data which populate the data products.
 
-- Minimum System Version: This column appears for available data packages only and displays the minimum version of the SAP S/4HANA Cloud Private Edition system required for the data package to be installed. If the current SAP S/4HANA Cloud Private Edition version included in your 'SAP Business Data Cloud' formation is lower than the minimum version required by the data product, the data product cannot be installed.
+- **Minimum System Version**: This column appears for available data packages only and displays the minimum version of the SAP S/4HANA Cloud Private Edition system required for the data package to be installed. If the current SAP S/4HANA Cloud Private Edition version included in your 'SAP Business Data Cloud' formation is lower than the minimum version required by the data product, the data product cannot be installed.
 
-- Update: if there are updates available, they will also be shown at the data package level, and you could trigger an update.
+- **Update**: if there are updates available, they will also be shown at the data package level, and you could trigger an update.
 
 > [!IMPORTANT]
 When activating a data package, make sure the source system is correctly identified and accessible. Check that the source system's version meets or exceeds the minimum required by each data product in the package. Data products will only activate if their minimum version requirements are met. For example, if one product requires version 2021 and another requires 2025, and your S4 system is on version 2024, only the product requiring version 2021 will activate. Additionally, the data package itself may have a minimum version requirement; if the source system doesn't meet this, no data products will install. The installation of data products can be partial or full based on the source system's version compatibility.
@@ -55,7 +55,7 @@ When activating a data package, make sure the source system is correctly identif
 <img src = "./images/DataPackage_active.png" width= "1000"/>
 
 
-## Exercise 4.2 Hands-on and Guided Tour: Share Data Products in BDC Cockpit
+## Exercise 4.2 Guided Tour: Share Data Products in BDC Cockpit
 
 Now you have successfully activated the Data Package, it's now available for business users in the catalog. 
 Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in SAP Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
