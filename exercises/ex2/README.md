@@ -7,7 +7,7 @@ We have successfully created an SAP BDC formation from our last exercise. Now le
 ## Exercise 2.1 Hands-on: Log in SAP BDC Cockpit
 
 1. Go to link of SAP BDC Cockpit, use the username and password provided to you.
-2. Once logged in, you can access all the apps available in SAP Business Data Cloud in the side navigation. Currently, you have a role of a general user. Apps available to you are:
+2. Once logged in, you can access all the apps available in SAP Business Data Cloud in the side navigation. Currently, you have a role of a non-admin user. Apps available to you are:
 - Home
 View the list of your most recently worked-on intelligent applications and data packages, or browse and explore the most recent intelligent applications and data packages made available by SAP
 - Intelligent Applications and Data Packages
