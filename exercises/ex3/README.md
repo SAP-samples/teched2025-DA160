@@ -33,7 +33,7 @@ This intelligent application is powered by the data from S/4 PCE data products, 
 ![dataProducts](images/dataProductsComprised.png) 
 
 2. Content:
-- `SAP_SAC_WCI`: SAP Analytics Cloud: The stories that are comprised in this intelligent application will be created in SAC in a folder called SAP_SAC_WCI. You can find this under the Files > Intelligent Applications > SAP S/4HANA > Finance tab. This folder is SAP-managed and will be read-only. 
+- `SAP_SAC_WCI`: SAP Analytics Cloud: The stories that are comprised in this intelligent application will be created in SAC in a folder called `SAP_SAC_WCI`. You can find this under the Files > Intelligent Applications > SAP S/4HANA > Finance tab. This folder is SAP-managed and will be read-only. 
 
 - `SAP_DSP_WCI`, `SAP_DSP_S4_RE`, `SAP_DSP_S4_ING`: The installation creates and deploys three spaces in the underlying SAP Datasphere. 
 
