@@ -63,7 +63,7 @@ Congratulations! You have successfully shared the data product created in Databr
 
 ## Exercise 5.2 Hands-on: Install the Enhanced Data Product in Datasphere
 
-In the previous exercise, we shared your own dataset **company_code_clusters** from databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it available.
+In the previous exercise, we shared your own dataset `company_code_clusters` from databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it available.
 
 >[!Note]
 >When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In our case, we want to customize the delivered content. We need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
@@ -97,7 +97,7 @@ Click the **display as list** in the upper right corner to allow a better view f
 
 ![locatedsp](images/0522-dsp4.png) 
 
-6. Change Data Access method to Remote Tables, and select the company_code_cluster data product, then select Start Import and Deploy.
+6. Change Data Access method to Remote Tables, and select the `company_code_cluster` data product, then select Start Import and Deploy.
 
 ![locatedsp](images/0522-dsp5.png) 
 
