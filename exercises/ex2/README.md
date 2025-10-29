@@ -23,7 +23,7 @@ Now you have successfully logged in to the SAP BDC cockpit.
 
 ## Exercise 2.2 Guided Tour: Create a user with BD viewer role
 
-In this exercise, we will create a user with BD viewer role in the BDC cockpit.
+In this exercise, we will create a user with **BD viewer** role in the BDC cockpit.
 
 Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
