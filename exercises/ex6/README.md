@@ -11,10 +11,10 @@ For the customization, one would need to copy the spaces in SAP Datasphere and t
 
 In this exercise, we will continue with Working Capital Insights as basis. The exercise is divided into two parts:
 - Copy the SAP Datasphere spaces below
-    * SAP_WCI
-    * SAP_S4H
+    * `SAP_WCI`
+    * `SAP_S4H`
 - Copy the SAP Analytics story which under the package and Location below
-    * SAP_SAC_WCI: INSIGHT_APPS / SAP S/4HANA / Finance
+    * `SAP_SAC_WCI`: INSIGHT_APPS / SAP S/4HANA / Finance
 
 ## Exercise 6.1 Read-only: SAP Datasphere Space Copy
 > [!Note]
@@ -24,7 +24,7 @@ In this exercise, we will continue with Working Capital Insights as basis. The e
 > This steps DO NOT need to be performed. Your space has already been provided to you. The following image shows the space already provided to you.
 <br>![space](/exercises/ex6/images/03_your_space.png)
 
-1. In SAP Datasphere, open the `Space Management` tab and navigate to the space ´SAP_S4H´.
+1. In SAP Datasphere, open the `Space Management` tab and navigate to the space `SAP_S4H`.
 <br>![space_mgmt](/exercises/ex6/images/01_space_mgmt.png)
 
 2. Use the `Copy` button to copy the space.
