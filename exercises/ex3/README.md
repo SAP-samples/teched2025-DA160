@@ -1,6 +1,6 @@
 # Exercise 3 - Install Intelligent Applications (30 min)
 
-In this exercise, we will walk through how to install intelligent applications in SAP BDC.
+In this exercise, you will walk through how to install intelligent applications in SAP BDC.
 
 What is an SAP Business Data Cloud Intelligent Application?
 
@@ -14,7 +14,7 @@ insights and develop AI faster.
 
 ## Exercise 3.1 Hands-on: Intelligent Application Overview - Working Capital Insights
 
-As an Admin of BDC, installing intelligent applications is a key task you will perform after completing BDC provisioning. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that we can start using the insights and the underlying data products to their full potential.
+As an Admin of BDC, installing intelligent applications is a key task you will perform after completing BDC provisioning. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that you can start using the insights and the underlying data products to their full potential.
 
 Following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
@@ -53,9 +53,9 @@ Now you have gone over the basic information of the Working Capital Insights int
 
 ## Exercise 3.2 Guided Tour: Install Intelligent Application - Working Capital Insights
 
-Now that we have checked the details of Working Capital Insights intelligent apps and make sure this is the intelligent app we want to install. In this exercise, let us look at the steps of installing the intelligent application.
+Now that you have checked the details of Working Capital Insights intelligent apps and make sure this is the intelligent app we want to install. In this exercise, let us look at the steps of installing the intelligent application.
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+Due to the technical and time limitations, you will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
 A guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
@@ -151,7 +151,7 @@ The transformation flow runs can be monitored from the **Data Integration Monito
 
 4. SAP Analytics Cloud: Grant access to content in SAC
 
-Next, we have to manage the access in SAP Analytics Cloud. Open SAP Analytics Cloud using the Product Switch button. In SAC, in the **Security>Users** tab, add all the relevant users who will need access to content in SAC and so that the content can be shared with them.
+Next, you have to manage the access in SAP Analytics Cloud. Open SAP Analytics Cloud using the Product Switch button. In SAC, in the **Security>Users** tab, add all the relevant users who will need access to content in SAC and so that the content can be shared with them.
     
 > [!NOTE]
 > An admin role, like **BI Admin** or **Admin**, is required to view the Intelligent Applications tab. Hence, for sharing the intelligent application story for the first time, one of these admin roles is required. For subsequent users, the intelligent application can be shared with them as shown in the following steps.
@@ -162,7 +162,7 @@ From the Managed content folder in the file repository, grant the access rights 
 ![IA_ShareSACContentUsers](images/IA_ShareSACContentUsers.png)<br/>
 
 ## Exercise 3.3 Guided Tour: Maintain Data Access Control centrally for S/4HANA PCE
-Due to the technical and time limitations, we will use guided tours for activities that are one-time. This particular section will go into detail about one of the steps mentioned earlier and explain how to centrally maintain the row level security for one instance of S/4HANA PCE within a formation. It will show you how the data access control is maintained in the S/4HANA reuse space. All the dimensions within `Working Capital Insights` must have the row-level security maintained.
+Due to the technical and time limitations, you will use guided tours for activities that are one-time. This particular section will go into detail about one of the steps mentioned earlier and explain how to centrally maintain the row level security for one instance of S/4HANA PCE within a formation. It will show you how the data access control is maintained in the S/4HANA reuse space. All the dimensions within `Working Capital Insights` must have the row-level security maintained.
 
 ### Guided Tour:
 <b>Start the tour [here](https://tour-viewer.platform.saleo.io/b8a59936-3d02-4f1f-a4e9-13b322bfa18d).</b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
