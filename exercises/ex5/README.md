@@ -1,6 +1,6 @@
 # Exercise 5 - Enhance the Data Product in SAP Databricks and Install the custom-built Data Product in SAP Datasphere (20 min)
 
-At SAP Business Unleashed 2025, we announced SAP Databricks, a landmark partnership that brings the power of
+At SAP Business Unleashed Event 2025, we announced SAP Databricks, a landmark partnership that brings the power of
 Databricks directly into SAP Business Data Cloud.
 
 What is SAP Databricks?
