@@ -12,11 +12,11 @@ together with semantically rich, business-ready data from SAP applications.
 In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can further work on this data product in SAP Databricks.
 In this exercise, you will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product in datasphere so that data analyst can start their work, for example, modeling, in Datasphere. 
 
-## Exercise 5.1 Hands-on: Enhance the Data Product in Databricks
+## Exercise 5.1 Hands-on: Enhance the Data Product in SAP Databricks
 
 Let's first do some enhancements on the **Company Code** Data product which was shared previously to SAP Databricks.
 
-1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of Databricks.
+1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of SAP Databricks.
 ![locatedatabricks](images/0501-locatedatabricks.png) 
 
 2. Provide Email and select **Continue**. The email is the yourusername@sapexperienceacademy.com. 
@@ -59,11 +59,11 @@ Switch to **Shared by me** and sort by **created at**, or filter for your userna
 
 ![ccshare](images/0510-confirmshare2.png) 
 
-Congratulations! You have successfully shared the data product created in Databricks to BDC. In order to leverage this data in datasphere, the next step will be install the data product in datasphere.
+Congratulations! You have successfully shared the data product created in SAP Databricks to BDC. In order to leverage this data in datasphere, the next step will be install the data product in datasphere.
 
 ## Exercise 5.2 Hands-on: Install the Enhanced Data Product in Datasphere
 
-In the previous exercise, we shared your own dataset `company_code_clusters` from databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it available.
+In the previous exercise, we shared your own dataset `company_code_clusters` from SAP Databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it available.
 
 >[!Note]
 >When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In this case, you want to customize the delivered content. You need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
