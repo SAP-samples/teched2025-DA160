@@ -1,8 +1,8 @@
 # Exercise 2 - Administration Tools in SAP BDC Cockpit (10 min)
 
-In this exercise, we will introduce administrative tools in SAP BDC Cockpit.
+In this exercise, you will be introduced to the administrative tools in SAP BDC Cockpit.
 
-We have successfully created an SAP BDC formation from our last exercise. Now let's explore some administrative tasks in SAP BDC Cockpit.
+You have successfully created an SAP BDC formation from our last exercise. Now let's explore some administrative tasks in SAP BDC Cockpit.
 
 ## Exercise 2.1 Hands-on: Log in SAP BDC Cockpit
 
@@ -23,9 +23,9 @@ Now you have successfully logged in to the SAP BDC cockpit.
 
 ## Exercise 2.2 Guided Tour: Create a user with BD viewer role
 
-In this exercise, we will create a user with **BD viewer** role in the BDC cockpit.
+In this exercise, you will see how to create a user with **BD viewer** role in the BDC cockpit.
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+Due to the technical and time limitations, you will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
@@ -46,7 +46,7 @@ SAP BDC cockpit offers the following default roles:
     - **Data Catalog User**: This role is required to view the **Catalog & Marketplace** tab inside SAP BDC Cockpit which refers to the One Data Catalog concept of SAP Business Data Cloud
     - **Data Catalog Administrator**: This role is required to share data products from the SAP BDC Catalog.
 
-In our case, we assign **BD viewer** to the new user. Then click **Next**.
+In our case, **BD viewer** is assigned to the new user. Then click **Next**.
 
 
 3. Review the user information, then click Save to create the user.
