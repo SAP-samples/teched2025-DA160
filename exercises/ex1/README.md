@@ -46,7 +46,7 @@ You have successfully provisioned the BDC Cockpit.
 
 ## Exercise 1.2 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
-Due to the technical and time limitations, we will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
+Due to the technical and time limitations, you will use guided tours for activities in this class which takes long time and affect the whole shared landscape.
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 
@@ -77,7 +77,7 @@ In the SAP for Me account, under the **Portfolio & Products** Tab, under **My pr
 You can go through the **Applications**, **Solutions**,**Resources** and **Customer Landscape** tabs to check the details of your BDC.
 
 #### Create Resource Group
-In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided. To start provision these systems, we need to first create a resource group to group them together.
+In a SAP Business Data Cloud Landscape, other than the data source systems, other products can be provisioned to leverage the different capabilities that are provided. To start provision these systems, you need to first create a resource group to group them together.
 
 In the Resources tab, choose the *Create*, to create a resource group in your BDC.
 
@@ -111,11 +111,11 @@ Formations allow you to combine SAP solution systems to simplify the connectivit
 <img src="images/sap4me-images/formationSynchronizing.png" alt="formationSynchronizing" width="1500"/><br/>
 
 #### Provisioning of SAP Databricks and include it into formation
-After a formation is created, we can start provision SAP Databricks. 
+After a formation is created, you can start provision SAP Databricks. 
 In the Applications tab, choose the *Start Provisioning* for the SAP Databricks application. A provisioning wizard will appear and guide you through the provision process.
 You will need to jump to Databricks homepage to activate the Databricks service.
 
-After the provision of SAP Databricks, we need to switch to **Customer Landscape** to include the newly created SAP Databricks to our formation.
+After the provision of SAP Databricks, you need to switch to **Customer Landscape** to include the newly created SAP Databricks to our formation.
 
 ## Summary
 
