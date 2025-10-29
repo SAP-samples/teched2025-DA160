@@ -47,8 +47,8 @@ We enhanced this data product by applying a clustering ML algorithm to the origi
 ![ccshare](images/0507-deltashare.png) 
 
 Select **Create a new share with the table. Provide Share name and Recipients. 
-- share name: company_code_clustering_share_<username>
-- Recipients: sap-business-data-cloud
+- share name: `company_code_clustering_share_<username>`
+- Recipients: `sap-business-data-cloud`
 
 ![ccshare](images/0508-deltashare2.png) 
 
@@ -83,7 +83,7 @@ Now, let's try to install the enhanced data product in your Datasphere.
 
 3. Datasphere has provided many useful filters for you to search for your content. Let's select the necessary filters:
 - Data Products
-- system instance name = databricks-ee9691c9
+- system instance name = `databricks-ee9691c9`
 
 Click the **display as list** in the upper right corner to allow a better view for data products with long name. You can also type in the first few letters of your username to further limit the output. Please note there might be many data products with similar names, carefully select the one match your whole username.
 
