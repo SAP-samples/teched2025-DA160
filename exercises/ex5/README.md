@@ -19,15 +19,15 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 1. Log in to your BDC cockpit, using the link and username/password provided. Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of Databricks.
 ![locatedatabricks](images/0501-locatedatabricks.png) 
 
-2. Provide Email and select Continue. The email is the yourusername@sapexperienceacademy.com. 
+2. Provide Email and select **Continue**. The email is the yourusername@sapexperienceacademy.com. 
 
 ![logindatabricks](images/0502-dblogin.png) 
 
-3. Select Continue with SSO.
+3. Select **Continue with SSO**.
 
 ![logindatabricks](images/0503-dbsso.png) 
 
-4. Select the default workspace to continue.
+4. Select the default **workspace** to continue.
 
 ![wpdatabricks](images/0504-dbworkspace.png) 
 
