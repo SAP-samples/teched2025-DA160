@@ -30,20 +30,20 @@ In this exercise, we will continue with Working Capital Insights as basis. The e
 2. Use the `Copy` button to copy the space.
 <br>![space_copy](/exercises/ex6/images/02_copy_space.png)
 
-3. Repeat the two steps above for the space ´SAP_WCI´ as well.
+3. Repeat the two steps above for the space `SAP_WCI` as well.
 
 
 ## Exercise 6.2 Hands-on: SAP Analytics Cloud Story Copy
 1. Use the `Product Switch` button to switch to SAP Analytics Cloud.
 <br>![product_switch](/exercises/ex6/images/04_product_switch.png)
 
-2. Navigate to the folder Files > Intelligent Applications > S/4HANA. Copy the folder `Finance` using the `Copy` Button as shown in the following image
+2. Navigate to the folder Files > Intelligent Applications > S/4HANA. Copy the folder **Finance** using the **Copy** Button as shown in the following image
 <br>![story_copy](/exercises/ex6/images/05_copy_story.png)
 
-3. Append your User ID to the name of the story and select the `Copy` button.
+3. Append your User ID to the name of the story and select the **Copy** button.
 <br>![name_story](/exercises/ex6/images/06_name_story.png)
 
-4. The folder and the story is copied in the folder `My Files`.
+4. The folder and the story is copied in the folder **My Files**.
 <br>![07_story_copied](/exercises/ex6/images/07_story_copied.png)
 
 
