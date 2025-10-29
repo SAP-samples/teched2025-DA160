@@ -114,7 +114,7 @@ In **Space Management**, navigate to each of these spaces and assign users to th
 
 2. SAP Datasphere: Fill the permission table to maintain data access control.
 
-To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, please refer to the format [here](other/WciAuthorizationList_set.csv) <br/>
+To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, you can find it in the repository: [A sample Data Access Control file](other/WciAuthorizationList_set.csv). <br/>
 ![IA_EditDAC](images/IA_Dac1.png)<br/>
 ![IA_EditDACUsers](images/IA_Dac2.png)<br/>
 
@@ -129,7 +129,7 @@ In the space, `SAP_S4H`, there are two task chains. Run both task chains as foll
   - Run task chain sap.s4h.TC_InitWCIConfiguration 
   - Configure the sap.s4h.IL_FinancialDataModelConfiguration table with G/L Account Hierarchy
   - Run task chain sap.s4h.TC_NWCPersis
-  - You can find more information [here](https://help.sap.com/docs/business-data-cloud/viewing-insight-apps/2fe6d4074470414585326125c2661428.html)
+  - You can find more information here: [Viewing Intelligent Applications](https://help.sap.com/docs/business-data-cloud/viewing-insight-apps/2fe6d4074470414585326125c2661428.html)
 
 ![IA_AuthorizeTaskChain](images/IA_TwoTaskChains.png)<br/>
 ![IA_TaskChainRun](images/IA_TaskChainRun.png)<br/>
