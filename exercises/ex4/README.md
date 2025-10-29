@@ -60,6 +60,8 @@ When activating a data package, make sure the source system is correctly identif
 Now you have successfully activated the Data Package, it's now available for business users in the catalog. 
 Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in SAP Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
 
+One can seamlessly share data products to other SAP systems, for example, SAP Databricks, where users can query and enrich them. System administrators in your other SAP systems will then give users authorized access to consume and enrich the shared data products.
+
 To make data products available for consumption in SAP Databricks, you can share data products from the SAP Business Data Cloud catalog to SAP Databricks.
 
 1. Log in to your BDC cockpit, using the link and username/password provided.
