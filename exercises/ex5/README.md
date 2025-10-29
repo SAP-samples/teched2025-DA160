@@ -10,7 +10,7 @@ SAP Business Data Cloud. SAP Databricks brings industry-leading AI/ML, data scie
 together with semantically rich, business-ready data from SAP applications. 
 
 In Exercise 4, we have shared the **Company Code** Data product from SAP BDC cockpit to SAP Databricks. The Data scientist can further work on this data product in SAP Databricks.
-In this exercise, we will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product in datasphere so that data analyst can start their work, for example, modeling, in Datasphere. 
+In this exercise, you will simulate the process of exploring the Data Product in SAP Databricks, and install the enhanced data product in datasphere so that data analyst can start their work, for example, modeling, in Datasphere. 
 
 ## Exercise 5.1 Hands-on: Enhance the Data Product in Databricks
 
@@ -36,11 +36,11 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 6. Go to **Catalog** tab and locate the **Company Code** Data product as illustrated in the figure below. This Data Product was shared from the SAP Business Data Cloud to SAP Databricks and is now available for consumption. 
 ![ccdatabricks](images/0505-dbcompanycode.png) 
 
-7. Now the data scientist can start working on this data. Due to the time limitation, we won't include the reprocessing exercise in our session. Instead, we already saved a copy of the enhanced data so that we can continue. Let's expand the catalog again, go to **My organization** and follow the path illustrated below to locate the **company_code_clusters** data:
+7. Now the data scientist can start working on this data. Due to the time limitation, we won't include the reprocessing exercise in our session. Instead, we already saved a copy of the enhanced data so that you can continue. Let's expand the catalog again, go to **My organization** and follow the path illustrated below to locate the **company_code_clusters** data:
 
 ![ccdatabricks](images/0506-dbenhance.png) 
 
-We enhanced this data product by applying a clustering ML algorithm to the original dataset. The output contains the clustering coordinates and labels for each Company Code.
+You have enhanced this data product by applying a clustering ML algorithm to the original dataset. The output contains the clustering coordinates and labels for each Company Code.
 
 8. The next step is to share this data via Delta sharing. Select **Share** and choose **Share via Delta Sharing**.
 
@@ -66,7 +66,7 @@ Congratulations! You have successfully shared the data product created in Databr
 In the previous exercise, we shared your own dataset `company_code_clusters` from databricks to BDC, now it's ready for consume. Before the end user can consume the data, the admin needs to install this enhanced data product in Datasphere to make it available.
 
 >[!Note]
->When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In our case, we want to customize the delivered content. We need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
+>When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In this case, you want to customize the delivered content. You need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
 
 >[!IMPORTANT]
 > The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **company_code_clusters**.
@@ -89,7 +89,7 @@ Click the **display as list** in the upper right corner to allow a better view f
 
 ![locatedsp](images/0522-dsp2.png) 
 
-4. In ex4, we have get familiar with the interface of data product. Now let's go directly to the installation part. Scroll down to the **Details** panel, click **Actions**, then click **install**.
+4. In ex4, you have get familiar with the interface of data product. Now let's go directly to the installation part. Scroll down to the **Details** panel, click **Actions**, then click **install**.
 
 ![locatedsp](images/0522-dsp3.png) 
 
