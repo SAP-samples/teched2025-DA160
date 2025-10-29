@@ -1,15 +1,15 @@
 # Exercise 6- Customization of Intelligent Application - Initiate
 
-As explored in the previous exercises, the SAP BDC Admin is crucial for installing and configuring the Intelligent Applications. In this exercise, we will learn how the SAP BDC Admin initiates the customization of the Intelligent Application. To customize an SAP-managed Intelligent Application, we have to first copy the SAP-managed version into its custom-managed counterparts.
+As explored in the previous exercises, the SAP BDC Admin is crucial for installing and configuring the Intelligent Applications. In this exercise, you will learn how the SAP BDC Admin initiates the customization of the Intelligent Application. To customize an SAP-managed Intelligent Application, you have to first copy the SAP-managed version into its custom-managed counterparts.
 
-As we know, the analytic Intelligent Application is comprised of the following:
+As you know, the analytic Intelligent Application is comprised of the following:
 - SAP-managed data products
 - Analytic Model and its underlying views and table in SAP Datasphere
 - Stories for reporting in SAP Anayltics Cloud
 
 For the customization, one would need to copy the spaces in SAP Datasphere and the story in SAP Analytics Cloud into custom-managed versions. It is in the custom-managed versions is where the customization can be performed.
 
-In this exercise, we will continue with Working Capital Insights as basis. The exercise is divided into two parts:
+In this exercise, you will continue with Working Capital Insights as basis. The exercise is divided into two parts:
 - Copy the SAP Datasphere spaces below
     * `SAP_WCI`
     * `SAP_S4H`
