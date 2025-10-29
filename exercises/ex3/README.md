@@ -114,7 +114,7 @@ In **Space Management**, navigate to each of these spaces and assign users to th
 
 2. SAP Datasphere: Fill the permission table to maintain data access control.
 
-To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, you can find it in the repository: [A sample Data Access Control file](other/WciAuthorizationList_set.csv). <br/>
+To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, you can find it in the repository: [A sample Data Access Control permissions file](other/WciAuthorizationList_set.csv). <br/>
 ![IA_EditDAC](images/IA_Dac1.png)<br/>
 ![IA_EditDACUsers](images/IA_Dac2.png)<br/>
 
