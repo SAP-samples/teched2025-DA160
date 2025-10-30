@@ -8,6 +8,7 @@ This repository contains the material for the SAP TechEd 2025 session called [DA
 
 This hands-on workshop is designed for IT administrators and analysis architects who want to gain practical expertise with SAP Business Data Cloud. Participants will explore the platform’s core components, learn how to activate and manage them, and practice strategies to streamline data integration, governance, and access. By the end, attendees will be equipped to leverage SAP Business Data Cloud to simplify complex data processes and deliver scalable, trusted data solutions across the enterprise.
 
+
 ## Requirements
 
 - Google Chrome Browser or Microsoft Edge based on the Chromium engine
