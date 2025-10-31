@@ -19,7 +19,7 @@ Let's first do some enhancements on the **Company Code** Data product which was 
 1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core-3.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **ObQomsFQYC1!**
 
    Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of SAP Databricks.
-   
+
 ![locatedatabricks](images/0501-locatedatabricks.png) 
 
 2. Provide Email and select **Continue**. The email is the yourusername@sapexperienceacademy.com. 
@@ -72,7 +72,8 @@ In the previous exercise, we shared your own dataset `company_code_clusters` fro
 >When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In this case, you want to customize the delivered content. You need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
 
 >[!IMPORTANT]
-> The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **company_code_clusters**.
+> The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **Company code clustering data product**. Search the keywords as shown below, and use the first data product in the list.
+![backupdspprd](images/0522-sharecompanycodebackup.png)
 
 Now, let's try to install the enhanced data product in your Datasphere.
 
@@ -90,7 +91,10 @@ Now, let's try to install the enhanced data product in your Datasphere.
 - Data Products
 - system instance name = `databricks-ee9691c9`
 
-Click the **display as list** in the upper right corner to allow a better view for data products with long name. You can also type in the first few letters of your username to further limit the output. Please note there might be many data products with similar names, carefully select the one match your whole username.
+Click the **display as list** in the upper right corner to allow a better view for data products with long name. You can also type in the first few letters of your username to further limit the output. Please note there might be many data products with similar names, carefully select the one match your whole username. 
+
+If you can't find the one with your username, this might due to the custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog, to save your time, please check the **!!important** note above, use the preshared data product instead. All actions below can be performed on that data product as well.
+
 
 ![locatedsp](images/0522-dsp2.png) 
 
