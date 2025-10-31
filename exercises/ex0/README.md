@@ -18,6 +18,8 @@ SAP Business Data Cloud is a fully managed SaaS solution that unifies and govern
 
 SAP Business Data Cloud was launched at SAP Business Unleashed Event on Feb 13, 2025, and is now generally available.
 
+<img src="images/01_bdcoverview.png" alt="internalHost" width="1500"/><br/>
+
 ## What are the core components of SAP Business Data Cloud formation?
 
 A formation is used to connect a group of application tenants together into a virtual BDC landscape. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation.
@@ -54,7 +56,7 @@ Delivers analytics, reporting, dashboards, and enterprise planning—all in one 
 
 Brings advanced AI, machine learning, and data science capabilities by enabling seamless access to SAP and third-party data without complex data replication.
 
-### SAP BW PCE:
+### SAP BW Private Cloud Edition:
 
 SAP BDC offers the flexibility and capability to expose SAP BW data in a modern data fabric environment. One can lift their SAP BW NetWeaver or SAP BW/4HANA on-premise deployments as-is into the private cloud component of SAP BDC. With the newly introduced component Data Product Generator for SAP BDC, creation of BW data products based on selected BW data can be carried out.
 

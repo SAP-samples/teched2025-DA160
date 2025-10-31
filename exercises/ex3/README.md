@@ -2,38 +2,41 @@
 
 In this exercise, you will walk through how to install intelligent applications in SAP BDC.
 
-What is an SAP Business Data Cloud Intelligent Application?
+**What is an SAP Business Data Cloud Intelligent Application?**
 
 SAP Business Data Cloud Intelligent Applications are a suite of adaptive and AI-powered applications that learn from your
 data, understand business context, and act on your behalf to transform business outcomes. These are fully managed, built
 on a foundation of SAP data products, and incorporate pre-defined metrics, AI models, and planning capabilities,
 simplifying how you connect and integrate every part of your business.
-They are fully managed applications that are installed through the BDC Cockpit. Once installed, the associated data products, data models, analytics and application assets are deployed and configured automatically. The
+
+They are fully managed applications that are installed through the SAP BDC Cockpit. Once installed, the associated data products, data models, analytics and application assets are deployed and configured automatically. The
 prebuilt SAP managed data products installed with the intelligent application packages can then be utilized to build new
 insights and develop AI faster.
 
 ## Exercise 3.1 Hands-on: Intelligent Application Overview - Working Capital Insights
 
-As an Admin of BDC, installing intelligent applications is a key task you will perform after completing BDC provisioning. In this exercise, let us first locate available intelligent applications, look at the details of one of these intelligent applications called the **Working Capital Insights** so that you can start using the insights and the underlying data products to their full potential.
+As an Admin of BDC, installing intelligent applications is a key task you will perform after completing the SAP BDC provisioning. In this exercise, let us first locate available intelligent applications, then try to install one of these intelligent applications called **Working Capital Insights**.
 
-Following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
+The following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
 
-1. Log in to your BDC cockpit, using the link and username/password provided.
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core-3.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **ObQomsFQYC1!**
 
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
 
 3. This module shows the **Working Capital Insights** Intelligent Application has been installed. Go to the Installed tab and click the **Working Capital Insights** Intelligent Application.
+
 ![IA_AvaiablePackagesWCI](images/IA_installed_WCI.png)
 
 
 This intelligent application is powered by the data from S/4HANA PCE data products, SAP Datasphere models and SAP Analytics Cloud stories. All of this is comprised in the **Details** section of the intelligent application.
 
 1. Data Products: As shown in the following image, the intelligent application is powered by data from 35 data products, which are highly curated datasets with rich semantic purpose.
+
 ![dataProducts](images/dataProductsComprised.png) 
 
 2. Content:
-- `SAP_SAC_WCI`: SAP Analytics Cloud: The stories that are comprised in this intelligent application will be created in SAC in a folder called `SAP_SAC_WCI`. You can find this under the Files > Intelligent Applications > SAP S/4HANA > Finance tab. This folder is SAP-managed and will be read-only. 
+- `SAP_SAC_WCI`: SAP Analytics Cloud: The stories that are comprised in this intelligent application will be created in SAC in a folder called `SAP_SAC_WCI`. You can find this under the Files > Intelligent Applications > SAP S/4HANA > Finance tab in SAP SAC. This folder is SAP-managed and will be read-only. 
 
 - `SAP_DSP_WCI`, `SAP_DSP_S4_RE`, `SAP_DSP_S4_ING`: The installation creates and deploys three spaces in the underlying SAP Datasphere. 
 
@@ -48,7 +51,7 @@ Clicking the link under the **Location** column will direct you to the correspon
 ![contents](images/3-1-content.png) 
 
 
-Now you have gone over the basic information of the Working Capital Insights intelligent apps. You can go ahead and install it.
+**Now you have gone over the basic information of the Working Capital Insights intelligent apps.** You can go ahead and install it.
 
 
 ## Exercise 3.2 Guided Tour: Install Intelligent Application - Working Capital Insights
@@ -61,7 +64,7 @@ A guided tour is a pre-built, step-by-step interactive walkthrough within a prod
 
 
 ### Guided Tour
-<b>Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). </b> Open the guided tour using the context menu and selecting Open link in new tab to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
+<b>Start the tour [here](https://tour-viewer.platform.saleo.io/adc38a87-3653-488b-9999-a3f05e4b9360). </b> Open the guided tour using the context menu and selecting **Open link in new tab** to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
 
 ### Explanations
@@ -95,7 +98,8 @@ Now you have sucessfully installed the **Working Capital Insights** intelligent 
 
 ### (Optional) Additional Steps after the Installation
 
-If you're new to the BDC, please skip this part to ensure you have enough time to finish the whole class. You can always come back to this later.
+> [!NOTE]
+> If you're new to the SAP BDC, please skip this part and move to the next exercise 3.3 to ensure you have enough time to finish the whole class. You can always come back to this part later. 
 
 
 After installation is complete, there are a few more steps need to be communicated to the relevant SAP Datasphere and Analytics Cloud administrators, to ensure that the intelligent application is ready to provide data to users. Due to the time limitation we will not dive deeper into the details of this part, please read the followings if you're interested.
@@ -103,6 +107,7 @@ After installation is complete, there are a few more steps need to be communicat
 1.  SAP Datasphere: Assign newly created scoped roles to users.
 
 In the **Security> Roles** tab, two new scoped roles are created during the installation of the Intelligent Application. The scoped roles have the newly created spaces `SAP_S4H`, `SAP_WCI` and `SAP_S4H_ING` as the scopes. The two newly generated scoped roles are `BDC_Scope_Space_Admin` and `BDC_Scope_Consumer`.
+
 ![IA_Role2](images/IA_ScopedRole2.png)<br/>
 ![IA_Role2](images/IA_ScopedRole4.png)<br/>
 > [!NOTE]
@@ -115,6 +120,7 @@ In **Space Management**, navigate to each of these spaces and assign users to th
 2. SAP Datasphere: Fill the permission table to maintain data access control.
 
 To maintain Data Access Control for the installed Intelligent Application, open the Data Builder and open the `Central Permissions Table` in the space `SAP_S4H`. You can upload the permissions in the form of a CSV file. For a sample CSV file, you can find it in the repository: [A sample Data Access Control permissions file](other/WciAuthorizationList_set.csv). <br/>
+
 ![IA_EditDAC](images/IA_Dac1.png)<br/>
 ![IA_EditDACUsers](images/IA_Dac2.png)<br/>
 
@@ -123,6 +129,7 @@ To maintain Data Access Control for the installed Intelligent Application, open 
 3. SAP Datasphere: Run Task Chains
 
 On installation, the replication flows fetch the data in the local tables. However, for the data to be populated in the views, the task chains and the corresponding transformation flows need to be run. Before running the task chains, grant yourself access to do so, as follows.
+
 ![IA_AuthorizeTaskChain](images/IA_AuthorizeTaskChain.png)<br/>
 
 In the space, `SAP_S4H`, there are two task chains. Run both task chains as follows:
@@ -140,9 +147,11 @@ The task chain runs can be monitored from the **Data Integration Monitor** > **T
 > If running either of these task chains results in an OutOfMemory exception, refer to the following recommendations. In the **System > Configuration > Workload Management** tab, change the setting of the two spaces `SAP_S4H` and `SAP_S4H_ING` to custom, as shown in the following image. <br/> ![IA_taskChainConfig](images/IA_taskChainConfig.png)<br/>
 
 To run all the transformation flows, open the space `SAP_S4H` in Data Builder and navigate to the **Flows** tab. There are five transformation flows that have to be run. <br/>
+
 ![IA_OpenSAC](images/IA_TF_list.png)<br/>
 
 Open and run each of the Transformation Flows.<br/>
+
 ![IA_RunTf](images/IA_RunTf.png)<br/>
 
 The transformation flow runs can be monitored from the **Data Integration Monitor** > **Flows** tab.

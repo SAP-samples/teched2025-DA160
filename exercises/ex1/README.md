@@ -1,7 +1,8 @@
 # Exercise 1 - Provision BDC via SAP for Me (10 min)
 
-When you subscribe to SAP BDC, you use SAP for Me to provision an SAP BDC tenant. 
-You will need the following to perform this activity:
+When you subscribe to SAP BDC, you use **SAP for Me** to provision an SAP BDC tenant. There is a single BDC tenant per customer and hyperscaler region. Each S-user can only create one BDC tenant.
+
+A customer will need the following to perform the provision of SAP BDC:
 - An [SAP for Me account](https://me.sap.com/)
 - Successful purchase of the SAP Business Data Cloud product and the corresponding entitlements
 - Cloud Adminsitrator role for the installation
@@ -20,6 +21,8 @@ You can choose to provision them whenever needed and as many times as needed. To
 <img src="images/sap4me-images/enableCoreProduct.png" alt="enableCoreProduct" width="1500"/><br/>
 
 
+
+
 1. To start provisioning the SAP BDC apps, you must first enable the SAP Business Data Cloud Core product. By doing so, the apps will become enabled and available for provisioning. SAP BDC Core product pertains directly to the application SAP BDC Cockpit.
 
 <img src="images/sap4me-images/enableBdcCoreProduct.png" alt="enableBdcCoreProduct" width="1500"/><br/>
@@ -31,18 +34,20 @@ You can choose to provision them whenever needed and as many times as needed. To
 3. Then, you provide the relevant input parameters using a guided wizard. This wizard is generated on the fly, based on configuration placed by the application owner.
 
 <img src="images/sap4me-images/coreProductInfo.png" alt="coreProductInfo" width="1500"/><br/>
- 
-4. Finish the setup. <br/>
+
+4. Finish the setup. 
 <img src="images/sap4me-images/finishProvisioning.png" alt="finishProvisioning" width="1500"/><br/>
 
-5. When the provisioning is complete, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. <b> The provisioning of the SAP Business Data Cloud Cockpit is successful.</b><br/>
+5. When the provisioning is complete, you can explore the solution and tenant resources that were just created for the app. Information on each resource is displayed, including the allocated quota and the status. Finally, you can launch the provisioned application. The provisioning of the SAP Business Data Cloud Cockpit is successful.<br/>
 
 <img src="images/sap4me-images/viewResources.png" alt="viewResources" width="1500"/><br/>
 
 6. In the **Resources** tab that opens, the application SAP BDC Cockpit displays. You can view the solution and the tenant resources that were just created for the cockpit application, including the quota and the allocated status. The status shows as **Processing** and then changes to **Ready**.
 <img src="images/sap4me-images/viewResourcesCoreProduct.png" alt="viewResourcesCoreProduct" width="1500"/><br/>
 
-You have successfully provisioned the BDC Cockpit.
+**You have successfully provisioned the BDC Cockpit.**
+
+
 
 ## Exercise 1.2 Guided Tour: Configure SAP Business Data Cloud in SAP for Me
 
@@ -60,7 +65,6 @@ During the guided tour, you will:
 - Provision and include SAP Databricks
 
 ### Guided Tour: 
-A guided tour is a clickthrough where the next click is pre-determined. The element to be explored next will be highlighted when you click anywhere on the screen.
 
 <b>Start the tour [here](https://tour-viewer.platform.saleo.io/0e902660-fbc8-4d3f-888d-2470b23a80d3). </b> Open the guided tour using the context menu and selecting **Open link in new tab** to stay keep the exercise page open. Explanations are provided below to help you understand the exercise.
 
@@ -119,7 +123,7 @@ After the provision of SAP Databricks, you need to switch to **Customer Landscap
 
 ## Summary
 
-In Exercise 1, you learned how to provision an SAP Business Data Cloud (BDC) tenant using SAP for Me. The exercise guides you through the foundational steps for enabling the SAP Business Data Cloud Cockpit, creating resource groups, and provisioning related applications such as SAP Datasphere, SAP Analytics Cloud, and SAP Databricks. You also followed a guided tour to configure BDC and learned how to create and manage formations that bring together different SAP systems to support integration and enhancement scenarios.
+In Exercise 1, you learned how to provision an SAP Business Data Cloud (BDC) tenant using SAP for Me. The exercise guides you through the foundational steps for enabling the SAP Business Data Cloud Cockpit, creating resource groups, and provisioning related applications such as SAP Datasphere, SAP Analytics Cloud, and SAP Databricks. You also followed a guided tour to configure SAP BDC and learned how to create and manage formations that bring together different SAP systems to support integration and enhancement scenarios.
 
 
 Continue to - [Exercise 2 - Administration Tools in SAP BDC cockpit](../ex2/README.md)
