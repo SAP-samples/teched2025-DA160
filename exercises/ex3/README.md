@@ -20,7 +20,7 @@ As an Admin of BDC, installing intelligent applications is a key task you will p
 The following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core-3.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **ObQomsFQYC1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**
 
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
 

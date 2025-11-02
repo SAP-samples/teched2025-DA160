@@ -16,7 +16,7 @@ In this exercise, you will simulate the process of exploring the Data Product in
 
 Let's first do some enhancements on the **Company Code** Data product which was shared previously to SAP Databricks.
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core-3.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **ObQomsFQYC1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**
 
    Go to the **System Landscape** tab, locate URL of SAP Databricks, click the URL of SAP Databricks.
 
@@ -77,7 +77,7 @@ In the previous exercise, we shared your own dataset `company_code_clusters` fro
 
 Now, let's try to install the enhanced data product in your Datasphere.
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core-3.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **ObQomsFQYC1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**
 
    Go to the **System Landscape** tab, locate URL of SAP Datasphere, click the URL of Datasphere.
 

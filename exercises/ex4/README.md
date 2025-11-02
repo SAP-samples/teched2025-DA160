@@ -55,7 +55,7 @@ When activating a data package, make sure the source system is correctly identif
 <img src = "./images/DataPackage_active.png" width= "1000"/>
 
 
-## Exercise 4.2 Guided Tour: Share Data Products in BDC Cockpit
+## Exercise 4.2 Hands-on and Guided Tour: Share Data Products in BDC Cockpit
 
 Now you have successfully activated the Data Package, it's now available for business users in the catalog. 
 Let's assume the data scientist in your org would like to take a look at the "Company Code" Data product in SAP Databricks, play around with the data, see if there is any pattern hidden inside the data. How to help him/her as a SAP BDC Admin?
@@ -64,7 +64,7 @@ One can seamlessly share data products to other SAP systems, for example, SAP Da
 
 To make data products available for consumption in SAP Databricks, you can share data products from the SAP Business Data Cloud catalog to SAP Databricks.
 
-1. Log in to your BDC cockpit, using the link and username/password provided.
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**.
 
 2. Open the **Search** module in SAP Business Data Cloud Cockpit, Search for "Company Code" Data Product. Please note there might be many similar data products containing the keywords "Company Code", select the one without any prefix or suffix。
 ![IA_Availabledataproduct](images/0402-sharedataproduct.png) 
@@ -72,7 +72,7 @@ To make data products available for consumption in SAP Databricks, you can share
 3. In the Overview page, we listed important information about this data product. Scroll down to the **Details** Panel, you will find the **Company Code** data product API. Please note this data product has already been shared to you before the training workshop. No action is needed from you.
 ![IA_shareddataproduct](images/0402-shareddp.png) 
 
-Please use the guided-tour below to get yourself familiar with the process of sharing.
+Please check the following guided-tour below to get yourself familiar with the process of sharing.
 
 Guided tour is a pre-built, step-by-step interactive walkthrough within a product's demo environment, using tooltips, clear instructions, and highlighted features to lead prospects through key workflows and functionalities. When accessing a guided tour, please click the highlighted area to proceed to the next step.
 

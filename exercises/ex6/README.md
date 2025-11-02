@@ -51,5 +51,6 @@ In this exercise, you will continue with Working Capital Insights as basis. The 
 SAP Datasphere spaces and the SAP Analytics Cloud story for `Working Capital Insights` Intelligent Application have are now made available by the SAP BDC Admin as custom-managed versions and are ready to be customized. 
 
 If you still have time left in this class, please <b>click the [here](https://trials.cfapps.eu10-004.hana.ondemand.com/learning-journey/ws_bdc/customise-ia) and follow the instructions in this workbook. You will learn how to enrich Intelligent Application. </b>
+
 ## Possible Enhancements
 This is the end of this Hands-on series. As a possible enhancement, one could integrate the results of the custom-build AI/ML data product back into the Intelligent Application. The data product can be used to enhance the cashflow Fact view, then enhance the Analytic Model and integrate the enhanced Analytic Model back into the custom-version of the SAC story seen above. Due to time constraints, this is not explored. However, this can be a possible assignment that you can take away from this Hands-on series.
