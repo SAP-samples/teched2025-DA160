@@ -4,7 +4,7 @@ You have successfully created an SAP BDC formation from our last exercise. In th
 
 ## Exercise 2.1 Hands-on: Log in SAP BDC Cockpit
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username `AC248214Uxx` with the number `xx` provided to you on the workshop. Use this password: **OblCiHAwov1!**
 
 2. Once logged in, you can access all the apps available in SAP Business Data Cloud in the side navigation. Currently, you have a role of a non-admin user. Apps available to you are:
 - **Home**
