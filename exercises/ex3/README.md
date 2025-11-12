@@ -17,10 +17,11 @@ insights and develop AI faster.
 
 As an Admin of BDC, installing intelligent applications is a key task you will perform after completing the SAP BDC provisioning. In this exercise, let us first locate available intelligent applications, then try to install one of these intelligent applications called **Working Capital Insights**.
 
-The following illustration gives an impression of the look and feel of this intelligent application:<br/><br/>
+The following illustration gives an impression of the look and feel of this intelligent application:
+
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username `AC248214Uxx` with the number `xx`. Use this password: **OblCiHAwov1!**
 
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
 
