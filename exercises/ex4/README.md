@@ -64,7 +64,7 @@ One can seamlessly share data products to other SAP systems, for example, SAP Da
 
 To make data products available for consumption in SAP Databricks, you can share data products from the SAP Business Data Cloud catalog to SAP Databricks.
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username on the piece of paper has been provided to you on the workshop. Use this password: **Ob40tWhDhL1!**.
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username provided to you on the workshop. Use this password: **OblCiHAwov1!**.
 
 2. Open the **Search** module in SAP Business Data Cloud Cockpit, Search for "Company Code" Data Product. Please note there might be many similar data products containing the keywords "Company Code", select the one without any prefix or suffix。
 ![IA_Availabledataproduct](images/0402-sharedataproduct.png) 
