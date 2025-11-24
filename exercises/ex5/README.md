@@ -62,6 +62,10 @@ Switch to **Shared by me** and sort by **created at**, or filter for your userna
 
 ![ccshare](images/0510-confirmshare2.png) 
 
+>[!IMPORTANT]
+> At this point, the sap-bdc-connect-sdk is required to publish the data product to the SAP BDC Catalog. If you are interested in performing these steps, then please refer to the steps in this [workbook](https://trials.cfapps.eu10-004.hana.ondemand.com/learning-journey/ws_bdc/dbx-enhance-data-product). If you want to just view and install the already prepared data product, continue with the next part of the exercise.
+>Please keep in mind that the data product that you will share with the SDK will not readily appear in the SAP BDC Catalog.
+
 Congratulations! You have successfully shared the data product created in SAP Databricks to BDC. In order to leverage this data in datasphere, the next step will be install the data product in datasphere.
 
 ## Exercise 5.2 Hands-on: Install the Enhanced Data Product in Datasphere
@@ -72,7 +76,7 @@ In the previous exercise, we shared your own dataset `company_code_clusters` fro
 >When you install an intelligent application, the data product contained in that application will be installed in Datasphere. It sets up and deploys entities in an ingestion space or an SAP-managed space. These entities are originally protected by SAP and cannot be editted. In this case, you want to customize the delivered content. You need to transform the SAP-managed content into editable content using the space copy and object sharing. Due to the time limitation, this step has been automated by scripts while setting up your user account in our training system.
 
 >[!IMPORTANT]
-> The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **Company code clustering data product**. Search the keywords as shown below, and use the first data product in the list.
+> The custom-built data product shared from SAP Databricks requires some time to show up on the SAP Datasphere Catalog. In interest of time, proceed to use the custom data product which was shared ahead of time. The data product is named **Company code clustering data product**. Search the keywords as shown below, and use the <b>second</b> data product in the list.
 ![backupdspprd](images/0522-sharecompanycodebackup.png)
 
 Now, let's try to install the enhanced data product in your Datasphere.
