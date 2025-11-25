@@ -21,7 +21,7 @@ The following illustration gives an impression of the look and feel of this inte
 
 ![WCI_A_Overview](images/WCI_A_Overview.png) 
 
-1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username `AC248214Uxx` with the number `xx`. Use this password: **OblCiHAwov1!**
+1. Open this link in a **new tab** to access the <b>[SAP BDC Cockpit](https://trial-bdc-core.eu10.hcs.cloud.sap/)</b>, use the username `AC250384Uxx` with the number `xx`. Use this password: **Obl1YBZ2L51!**
 
 2. Open the **Intelligent Applications and Data Packages** module in SAP Business Data Cloud. 
 
